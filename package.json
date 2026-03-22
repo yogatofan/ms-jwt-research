@@ -1,0 +1,14 @@
+{
+  "name": "ms-jwt-research",
+  "version": "1.0.0",
+  "scripts": {
+    "install:all": "cd user-service && npm install && cd ../product-service && npm install && cd ../order-service && npm install && cd ../gateway && npm install",
+    "start": "concurrently --names \"GATEWAY,USER,PRODUCT,ORDER\" --prefix-colors \"blue,green,yellow,magenta\" \"cd gateway && node src/app.js\" \"cd user-service && node src/app.js\" \"cd product-service && node src/app.js\" \"cd order-service && node src/app.js\"",
+    "start:no-security": "cross-env SECURITY_ENABLED=false npm run start",
+    "start:with-security": "cross-env SECURITY_ENABLED=true npm run start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0",
+    "cross-env": "^7.0.0"
+  }
+}

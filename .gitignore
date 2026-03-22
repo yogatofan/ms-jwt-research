@@ -1,0 +1,26 @@
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Environment variables (JANGAN di-push, berisi secret key)
+.env
+
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Python output files (opsional, push kalau mau simpan grafik)
+*.pdf
+*.png
+
+# draw.io backup file
+.$Diagram.drawio.bkp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# k6 raw result files (terlalu besar)
+load-testing/results/*.json
