@@ -17,6 +17,7 @@ __pycache__/
 
 # draw.io backup file
 .$Diagram.drawio.bkp
+*.drawio.bkp
 
 # OS files
 .DS_Store
@@ -24,3 +25,7 @@ Thumbs.db
 
 # k6 raw result files (terlalu besar)
 load-testing/results/*.json
+
+# Graphify cache & temporary data
+graphify-out/cache/
+graphify-out/cost.json
