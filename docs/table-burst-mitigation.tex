@@ -22,11 +22,3 @@
   \raggedright
   \footnotesize{$^*$The login-stage failure rate specifically measures connection/socket exhaustion on the authentication endpoint, while the overall HTTP failure rate encompasses all attempted requests across both login and product endpoints.}
 \end{table*}
-
-\begin{comment}
-"To ensure rigorous metric definitions, we distinguish between the login-stage error rate and the aggregate HTTP failure rate:
-
-Under unshielded burst traffic (baseline), the initial login flood caused severe TCP socket exhaustion, resulting in an $84.11% \pm 0.84%$ failure rate on login attempts ($40,668.8 \pm 1,812.1$ failed logins out of $48,338.6 \pm 1,669.2$ attempts).
-Across all attempted requests spanning both authentication and product querying ($86,687.6 \pm 1,115.0$ requests), the system achieved $41,782.4 \pm 707.1$ successful 2xx responses ($48.21% \pm 1.08%$ success rate), with an overall HTTP failure rate of $51.79% \pm 1.08%$.
-In contrast, with JWT and Gateway Rate Limiting enabled, the API Gateway intercepted $99.9980% \pm 0.0008%$ ($2,967,661.2 \pm 23,258.5$) of burst requests with HTTP 429 status codes, forwarding only $60.0 \pm 0.0$ authorized requests to backend microservices, thereby completely preventing backend TCP starvation and achieving a $0.00%$ unhandled failure rate."
-\end{comment}
