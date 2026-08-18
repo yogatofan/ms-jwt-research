@@ -1,41 +1,65 @@
 scenario,metric,mean,std,mean_raw,std_raw
-normal-no-security,Login Latency avg (ms),3.561908,0.026903,3.5619077922077915,0.026903390721693357
-normal-no-security,Login Latency p95 (ms),4.596960,0.126942,4.596959999999999,0.1269423609359768
-normal-no-security,Product Latency avg (ms),3.069605,0.041666,3.0696051948051952,0.04166630182979712
-normal-no-security,Product Latency p95 (ms),4.119060,0.095673,4.119059999999999,0.095673078763046
-normal-no-security,Order Latency avg (ms),3.238234,0.059259,3.2382337662337655,0.05925890517369505
-normal-no-security,HTTP Duration avg (ms),3.289916,0.036078,3.2899155844155863,0.036078033197107076
-normal-no-security,HTTP Duration p95 (ms),4.413190,0.084755,4.413189999999999,0.084754870066563
-normal-no-security,HTTP Duration max (ms),18.539600,0.200450,18.5396,0.20045024320264598
+normal-no-security,Login Latency avg (ms),3.562,0.027,3.5619077922077915,0.026903390721693357
+normal-no-security,Login Latency p95 (ms),4.597,0.127,4.596959999999999,0.1269423609359768
+normal-no-security,Product Latency avg (ms),3.070,0.042,3.0696051948051952,0.04166630182979712
+normal-no-security,Product Latency p95 (ms),4.119,0.096,4.119059999999999,0.095673078763046
+normal-no-security,Order Latency avg (ms),3.238,0.059,3.2382337662337655,0.05925890517369505
+normal-no-security,HTTP Duration avg (ms),3.290,0.036,3.2899155844155863,0.036078033197107076
+normal-no-security,HTTP Duration p95 (ms),4.413,0.085,4.413189999999999,0.084754870066563
+normal-no-security,HTTP Duration max (ms),18.540,0.200,18.5396,0.20045024320264598
 normal-no-security,Error Rate,0.00%,0.00%,0.0,0.0
-normal-no-security,Throughput (req/s),7.655933,0.002941,7.655932735208135,0.00294127977719762
-normal-with-security,Login Latency avg (ms),3.777864,0.042219,3.777864285714286,0.04221876083751705
-normal-with-security,Login Latency p95 (ms),4.955320,0.207523,4.9553199999999995,0.20752306377846289
-normal-with-security,Product Latency avg (ms),3.654899,0.059265,3.6548993506493526,0.05926519573523249
-normal-with-security,Product Latency p95 (ms),5.009780,0.232476,5.009779999999999,0.23247602188182798
-normal-with-security,Order Latency avg (ms),3.851692,0.098457,3.851692207792209,0.09845653277532157
-normal-with-security,HTTP Duration avg (ms),3.761485,0.062225,3.7614852813852835,0.062225095889406966
-normal-with-security,HTTP Duration p95 (ms),5.070670,0.173134,5.07067,0.17313398207746453
-normal-with-security,HTTP Duration max (ms),21.898000,1.926747,21.898000000000003,1.9267472589833876
+normal-no-security,Throughput (req/s),7.656,0.003,7.655932735208135,0.00294127977719762
+normal-no-security,Total Attempted Requests,924.000,0.000,924.0,0.0
+normal-no-security,Successful 2xx Responses,924.000,0.000,924.0,0.0
+normal-no-security,Successful-Response Rate (%),100.00%,0.00%,100.0,0.0
+normal-no-security,Rate-Limited Responses (429),0.000,0.000,0.0,0.0
+normal-no-security,Rate-Limited Response Rate (%),0.00%,0.00%,0.0,0.0
+normal-no-security,Backend-Forwarded Requests,924.000,0.000,924.0,0.0
+normal-with-security,Login Latency avg (ms),3.778,0.042,3.777864285714286,0.04221876083751705
+normal-with-security,Login Latency p95 (ms),4.955,0.208,4.9553199999999995,0.20752306377846289
+normal-with-security,Product Latency avg (ms),3.655,0.059,3.6548993506493526,0.05926519573523249
+normal-with-security,Product Latency p95 (ms),5.010,0.232,5.009779999999999,0.23247602188182798
+normal-with-security,Order Latency avg (ms),3.852,0.098,3.851692207792209,0.09845653277532157
+normal-with-security,HTTP Duration avg (ms),3.761,0.062,3.7614852813852835,0.062225095889406966
+normal-with-security,HTTP Duration p95 (ms),5.071,0.173,5.07067,0.17313398207746453
+normal-with-security,HTTP Duration max (ms),21.898,1.927,21.898000000000003,1.9267472589833876
 normal-with-security,Error Rate,0.00%,0.00%,0.0,0.0
-normal-with-security,Throughput (req/s),7.652075,0.003199,7.652074691830928,0.003199039833778333
-burst-no-security,Login Latency avg (ms),10.923656,1.999018,10.923655704232583,1.999018260200499
-burst-no-security,Login Latency p95 (ms),11.519990,1.027919,11.51998999999999,1.0279194225473058
-burst-no-security,Product Latency avg (ms),33.712820,6.859727,33.712820234029394,6.859727160675517
-burst-no-security,Product Latency p95 (ms),30.770430,15.786032,30.77042999999993,15.786032427141084
-burst-no-security,Order Latency avg (ms),N/A,0.000000,,0.0
-burst-no-security,HTTP Duration avg (ms),20.945158,3.475185,20.945157773338536,3.4751846494806684
-burst-no-security,HTTP Duration p95 (ms),19.346020,1.330576,19.34602,1.3305757365704503
-burst-no-security,HTTP Duration max (ms),4373.123800,2024.726827,4373.123799999999,2024.7268266618587
+normal-with-security,Throughput (req/s),7.652,0.003,7.652074691830928,0.003199039833778333
+normal-with-security,Total Attempted Requests,924.000,0.000,924.0,0.0
+normal-with-security,Successful 2xx Responses,924.000,0.000,924.0,0.0
+normal-with-security,Successful-Response Rate (%),100.00%,0.00%,100.0,0.0
+normal-with-security,Rate-Limited Responses (429),0.000,0.000,0.0,0.0
+normal-with-security,Rate-Limited Response Rate (%),0.00%,0.00%,0.0,0.0
+normal-with-security,Backend-Forwarded Requests,924.000,0.000,924.0,0.0
+burst-no-security,Login Latency avg (ms),10.924,1.999,10.923655704232583,1.999018260200499
+burst-no-security,Login Latency p95 (ms),11.520,1.028,11.51998999999999,1.0279194225473058
+burst-no-security,Product Latency avg (ms),33.713,6.860,33.712820234029394,6.859727160675517
+burst-no-security,Product Latency p95 (ms),30.770,15.786,30.77042999999993,15.786032427141084
+burst-no-security,Order Latency avg (ms),N/A,0.000,,0.0
+burst-no-security,HTTP Duration avg (ms),20.945,3.475,20.945157773338536,3.4751846494806684
+burst-no-security,HTTP Duration p95 (ms),19.346,1.331,19.34602,1.3305757365704503
+burst-no-security,HTTP Duration max (ms),4373.124,2024.727,4373.123799999999,2024.7268266618587
 burst-no-security,Error Rate,84.11%,0.84%,0.8411056080034539,0.00844674970588249
-burst-no-security,Throughput (req/s),1233.588141,18.343142,1233.5881414117114,18.343141935572586
-burst-with-security,Login Latency avg (ms),3.000681,0.023944,3.0006811504599122,0.02394386832803448
-burst-with-security,Login Latency p95 (ms),4.783800,0.023983,4.7838,0.02398332754227404
-burst-with-security,Product Latency avg (ms),1.514904,0.085827,1.5149040000000003,0.08582687387992165
-burst-with-security,Product Latency p95 (ms),2.660870,0.151155,2.6608699999999996,0.15115508013295492
-burst-with-security,Order Latency avg (ms),N/A,0.000000,,0.0
-burst-with-security,HTTP Duration avg (ms),3.000656,0.023943,3.0006561159516836,0.023943495739816807
-burst-with-security,HTTP Duration p95 (ms),4.783800,0.023983,4.7838,0.02398332754227404
-burst-with-security,HTTP Duration max (ms),23.119800,8.148827,23.1198,8.148827013748667
+burst-no-security,Throughput (req/s),1233.588,18.343,1233.5881414117114,18.343141935572586
+burst-no-security,Total Attempted Requests,86687.600,1114.973,86687.6,1114.9732283781525
+burst-no-security,Successful 2xx Responses,41782.400,707.144,41782.4,707.144468973632
+burst-no-security,Successful-Response Rate (%),48.21%,1.08%,48.20627051969973,1.0827858368874304
+burst-no-security,Rate-Limited Responses (429),0.000,0.000,0.0,0.0
+burst-no-security,Rate-Limited Response Rate (%),0.00%,0.00%,0.0,0.0
+burst-no-security,Backend-Forwarded Requests,86687.600,1114.973,86687.6,1114.9732283781525
+burst-with-security,Login Latency avg (ms),3.001,0.024,3.0006811504599122,0.02394386832803448
+burst-with-security,Login Latency p95 (ms),4.784,0.024,4.7838,0.02398332754227404
+burst-with-security,Product Latency avg (ms),1.515,0.086,1.5149040000000003,0.08582687387992165
+burst-with-security,Product Latency p95 (ms),2.661,0.151,2.6608699999999996,0.15115508013295492
+burst-with-security,Order Latency avg (ms),N/A,0.000,,0.0
+burst-with-security,HTTP Duration avg (ms),3.001,0.024,3.0006561159516836,0.023943495739816807
+burst-with-security,HTTP Duration p95 (ms),4.784,0.024,4.7838,0.02398332754227404
+burst-with-security,HTTP Duration max (ms),23.120,8.149,23.1198,8.148827013748667
 burst-with-security,Error Rate,0.00%,0.00%,0.0,0.0
-burst-with-security,Throughput (req/s),42395.945739,332.081999,42395.94573900309,332.0819992109705
+burst-with-security,Throughput (req/s),42395.946,332.082,42395.94573900309,332.0819992109705
+burst-with-security,Total Attempted Requests,2967721.200,23258.547,2967721.2,23258.546508756735
+burst-with-security,Successful 2xx Responses,60.000,0.000,60.0,0.0
+burst-with-security,Successful-Response Rate (%),0.00%,0.00%,0.002021852830804354,1.5881840847433543e-05
+burst-with-security,Rate-Limited Responses (429),2967661.200,23258.547,2967661.2,23258.546508756735
+burst-with-security,Rate-Limited Response Rate (%),100.00%,0.00%,99.99797814716919,1.5881840845947638e-05
+burst-with-security,Backend-Forwarded Requests,60.000,0.000,60.0,0.0

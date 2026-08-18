@@ -200,8 +200,8 @@
     "semantic_hash": ""
   },
   "scripts/analyze.py": {
-    "mtime": 1787018384.5322552,
-    "ast_hash": "f3ebe1475b7093b5d7d12b0f30f7bc4e",
+    "mtime": 1787044494.7754447,
+    "ast_hash": "e865ae338e44cc9df4f612fc92d2eda5",
     "semantic_hash": ""
   },
   "scripts/env-report.py": {
@@ -255,33 +255,38 @@
     "semantic_hash": ""
   },
   "visualisasi/fig3-normal-latency-stats.pdf": {
-    "mtime": 1787035728.362621,
-    "ast_hash": "f3c1c7db24dd238a5ef31679c8ffcb58",
+    "mtime": 1787044512.1626315,
+    "ast_hash": "b5ffcac1d64059ed9bb8f3a4ad90975d",
     "semantic_hash": ""
   },
   "visualisasi/fig4-burst-traffic-stats.pdf": {
-    "mtime": 1787035728.508473,
-    "ast_hash": "02667439b0229c1f0cbdc739a862afb0",
+    "mtime": 1787044512.310941,
+    "ast_hash": "a7ea59707df078660ad0d514c426ac65",
     "semantic_hash": ""
   },
   "visualisasi/fig5-throughput-stats.pdf": {
-    "mtime": 1787035728.6777182,
-    "ast_hash": "1d86fd098d2dc66fda556c9b04f6cb3d",
+    "mtime": 1787044512.4810526,
+    "ast_hash": "c0cfb26d52cc92f67d6d2834892af2bc",
     "semantic_hash": ""
   },
   "visualisasi/fig3-normal-latency-stats.png": {
-    "mtime": 1787035728.4269316,
+    "mtime": 1787044512.22822,
     "ast_hash": "66a2296867a820f94ed584e75229e918",
     "semantic_hash": ""
   },
   "visualisasi/fig4-burst-traffic-stats.png": {
-    "mtime": 1787035728.6176496,
+    "mtime": 1787044512.4199321,
     "ast_hash": "cdc3ca48560d253e555ea8596ece60f1",
     "semantic_hash": ""
   },
   "visualisasi/fig5-throughput-stats.png": {
-    "mtime": 1787035728.7362413,
+    "mtime": 1787044512.5400596,
     "ast_hash": "9bb2c66285cbcaa259a3d6ce297d4d0a",
+    "semantic_hash": ""
+  },
+  "notes.md": {
+    "mtime": 1787044219.2223785,
+    "ast_hash": "cf65b66bb77e40f8233961d35a15593c",
     "semantic_hash": ""
   }
 }

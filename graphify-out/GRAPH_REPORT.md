@@ -1,16 +1,16 @@
 # Graph Report - ms-jwt-research  (2026-08-18)
 
 ## Corpus Check
-- 50 files · ~14,784 words
+- 51 files · ~23,233 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 246 nodes · 282 edges · 28 communities (23 shown, 5 thin omitted)
+- 250 nodes · 288 edges · 29 communities (23 shown, 6 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 3 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `9c2724b0`
+- Built from commit: `ba332765`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -37,11 +37,12 @@
 - workflows/graphify.md
 - environment-spec.md
 - error.md
+- notes.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `collect_specs()` - 15 edges
 2. `run()` - 11 edges
-3. `main()` - 9 edges
+3. `main()` - 10 edges
 4. `main()` - 9 edges
 5. `run-all.sh script` - 9 edges
 6. `Microservices JWT Research` - 8 edges
@@ -56,7 +57,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (28 total, 5 thin omitted)
+## Communities (29 total, 6 thin omitted)
 
 ### Community 0 - "env-report.py"
 Cohesion: 0.12
@@ -83,8 +84,8 @@ Cohesion: 0.10
 Nodes (19): author, dependencies, bcryptjs, dotenv, express, jsonwebtoken, description, bcryptjs (+11 more)
 
 ### Community 6 - "analyze.py"
-Cohesion: 0.17
-Nodes (22): _bar_with_errbar(), compute_stats(), extract_metrics(), fig3_normal_latency(), fig4_burst_traffic(), fig5_throughput(), fmt(), fmt_pct() (+14 more)
+Cohesion: 0.16
+Nodes (24): _bar_with_errbar(), compute_stats(), export_reviewer_latex_table(), extract_metrics(), fig3_normal_latency(), fig4_burst_traffic(), fig5_throughput(), fmt() (+16 more)
 
 ### Community 7 - "order-service/src/app.js"
 Cohesion: 0.29
@@ -127,15 +128,15 @@ Cohesion: 0.49
 Nodes (9): log_error(), log_info(), log_ok(), log_section(), log_warn(), run-all.sh script, start_services(), stop_services() (+1 more)
 
 ## Knowledge Gaps
-- **117 isolated node(s):** `name`, `version`, `description`, `main`, `test` (+112 more)
+- **118 isolated node(s):** `name`, `version`, `description`, `main`, `test` (+113 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `name`, `version`, `description` to the rest of the system?**
-  _117 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _118 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `env-report.py` be split into smaller, more focused modules?**
   _Cohesion score 0.11553030303030302 - nodes in this community are weakly interconnected._
 - **Should `gateway/package.json` be split into smaller, more focused modules?**

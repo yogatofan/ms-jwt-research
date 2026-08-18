@@ -59,3 +59,7 @@ load-testing/results/*.json
 graphify-out/cache/
 graphify-out/cost.json
 graphify-out/.graphify_labels.json*
+graphify-out/2026-*/
+
+# ── Local Review Notes ───────────────────────────────────────────────────────
+notes.md

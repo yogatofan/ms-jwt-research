@@ -82,6 +82,23 @@ def extract_metrics(summary: dict) -> dict:
     def counter_rate(name):
         return safe_get(m, name, "rate", default=None)
 
+    # ── Reviewer count data extraction ─────────────────────────
+    total_reqs = safe_get(m, "http_reqs", "count", default=0) or 0
+    # http_req_failed.fails is the count of successful requests (status < 400, i.e., 2xx)
+    succ_2xx = safe_get(m, "http_req_failed", "fails", default=0) or 0
+    
+    # Blocked requests (429)
+    if "blocked_requests" in m:
+        blocked_429 = safe_get(m, "blocked_requests", "count", default=0) or 0
+    elif "checks" in summary.get("root_group", {}) and "rate limited 429" in summary["root_group"]["checks"]:
+        blocked_429 = safe_get(summary["root_group"]["checks"], "rate limited 429", "passes", default=0) or 0
+    else:
+        blocked_429 = 0
+
+    backend_fwd = total_reqs - blocked_429
+    succ_2xx_rate = (succ_2xx / total_reqs * 100.0) if total_reqs > 0 else 0.0
+    rate_limited_rate = (blocked_429 / total_reqs * 100.0) if total_reqs > 0 else 0.0
+
     return {
         # Latency – custom Trend metrics (ms)
         "login_latency_avg":     trend_avg("login_latency"),
@@ -100,6 +117,13 @@ def extract_metrics(summary: dict) -> dict:
         "error_rate":            rate_val("error_rate"),
         # Throughput (req/s)
         "throughput":            counter_rate("http_reqs"),
+        # Count & Reviewer Requested Metrics
+        "total_attempted_requests": total_reqs,
+        "successful_2xx_responses":  succ_2xx,
+        "successful_response_rate":  succ_2xx_rate,
+        "rate_limited_responses":    blocked_429,
+        "rate_limited_response_rate": rate_limited_rate,
+        "backend_forwarded_requests": backend_fwd,
     }
 
 
@@ -165,16 +189,22 @@ DISPLAY_NAMES = {
 }
 
 HUMAN_METRICS = {
-    "login_latency_avg":     "Login Latency avg (ms)",
-    "login_latency_p95":     "Login Latency p95 (ms)",
-    "product_latency_avg":   "Product Latency avg (ms)",
-    "product_latency_p95":   "Product Latency p95 (ms)",
-    "order_latency_avg":     "Order Latency avg (ms)",
-    "http_req_duration_avg": "HTTP Duration avg (ms)",
-    "http_req_duration_p95": "HTTP Duration p95 (ms)",
-    "http_req_duration_max": "HTTP Duration max (ms)",
-    "error_rate":            "Error Rate",
-    "throughput":            "Throughput (req/s)",
+    "login_latency_avg":         "Login Latency avg (ms)",
+    "login_latency_p95":         "Login Latency p95 (ms)",
+    "product_latency_avg":       "Product Latency avg (ms)",
+    "product_latency_p95":       "Product Latency p95 (ms)",
+    "order_latency_avg":         "Order Latency avg (ms)",
+    "http_req_duration_avg":     "HTTP Duration avg (ms)",
+    "http_req_duration_p95":     "HTTP Duration p95 (ms)",
+    "http_req_duration_max":     "HTTP Duration max (ms)",
+    "error_rate":                "Error Rate",
+    "throughput":                "Throughput (req/s)",
+    "total_attempted_requests":   "Total Attempted Requests",
+    "successful_2xx_responses":  "Successful 2xx Responses",
+    "successful_response_rate":  "Successful-Response Rate (%)",
+    "rate_limited_responses":    "Rate-Limited Responses (429)",
+    "rate_limited_response_rate":"Rate-Limited Response Rate (%)",
+    "backend_forwarded_requests":"Backend-Forwarded Requests",
 }
 
 
@@ -221,11 +251,12 @@ def write_csv(all_stats: dict, out_path: Path):
         stats = all_stats.get(sc, {})
         for key, label in HUMAN_METRICS.items():
             mu, sd = stats.get(key, (None, 0))
+            is_pct = key in ("error_rate", "successful_response_rate", "rate_limited_response_rate")
             rows.append({
                 "scenario": sc,
                 "metric": label,
-                "mean": fmt(mu, 6) if key != "error_rate" else fmt_pct(mu),
-                "std":  fmt(sd, 6) if key != "error_rate" else fmt_pct(sd),
+                "mean": fmt_pct(mu/100.0 if key != "error_rate" else mu) if is_pct else fmt(mu, 3),
+                "std":  fmt_pct(sd/100.0 if key != "error_rate" else sd) if is_pct else fmt(sd, 3),
                 "mean_raw": mu,
                 "std_raw":  sd,
             })
@@ -235,6 +266,65 @@ def write_csv(all_stats: dict, out_path: Path):
         writer.writeheader()
         writer.writerows(rows)
     print(f"[OK] CSV saved → {out_path}")
+
+
+def export_reviewer_latex_table(all_stats: dict, out_dir: Path):
+    """
+    Exports the reviewer-requested LaTeX table for Burst Traffic mitigation
+    and Normal Traffic counts with Mean ± SD over 5 runs.
+    """
+    b_no = all_stats.get("burst-no-security", {})
+    b_wi = all_stats.get("burst-with-security", {})
+
+    def f_cnt(stats, key):
+        mu, sd = stats.get(key, (0.0, 0.0))
+        return f"{mu:,.1f} $\\pm$ {sd:,.1f}"
+
+    def f_rate(stats, key, decimals=2, is_fraction=False):
+        mu, sd = stats.get(key, (0.0, 0.0))
+        if is_fraction:
+            mu *= 100.0
+            sd *= 100.0
+        return f"{mu:.{decimals}f}\\% $\\pm$ {sd:.{decimals}f}\\%"
+
+    # Calculate overall http failure rate (100% - successful_response_rate)
+    b_no_succ_mu, b_no_succ_sd = b_no.get("successful_response_rate", (0.0, 0.0))
+    b_no_fail_mu = 100.0 - b_no_succ_mu
+    b_no_fail_sd = b_no_succ_sd
+
+    b_wi_succ_mu, b_wi_succ_sd = b_wi.get("successful_response_rate", (0.0, 0.0))
+    b_wi_fail_mu = 0.0
+    b_wi_fail_sd = 0.0
+
+    tex_content = f"""% ── Reviewer-Requested Table: Burst Traffic Response Breakdown (Reconciled) ──
+\\begin{{table*}}[!t]
+  \\centering
+  \\caption{{Burst Traffic Response Breakdown and Rate-Limiting Mitigation ($n=5$, Mean $\\pm$ SD)}}
+  \\label{{tab:burst-count-breakdown}}
+  \\begin{{tabular}}{{|l|r|r|}}
+    \\hline
+    \\textbf{{Metric}} & \\textbf{{Without Security}} & \\textbf{{With JWT + Rate Limiting}} \\\\
+    \\hline
+    Total attempted requests        & {f_cnt(b_no, "total_attempted_requests")} & {f_cnt(b_wi, "total_attempted_requests")} \\\\
+    Successful 2xx responses        & {f_cnt(b_no, "successful_2xx_responses")} & {f_cnt(b_wi, "successful_2xx_responses")} \\\\
+    Successful-response rate        & {f_rate(b_no, "successful_response_rate", 2)} & {f_rate(b_wi, "successful_response_rate", 4)} \\\\
+    Rate-limited responses (429)    & {f_cnt(b_no, "rate_limited_responses")} & {f_cnt(b_wi, "rate_limited_responses")} \\\\
+    Rate-limited response rate      & {f_rate(b_no, "rate_limited_response_rate", 2)} & {f_rate(b_wi, "rate_limited_response_rate", 4)} \\\\
+    Overall HTTP failure rate       & {b_no_fail_mu:.2f}\\% $\\pm$ {b_no_fail_sd:.2f}\\% & {b_wi_fail_mu:.4f}\\% $\\pm$ {b_wi_fail_sd:.4f}\\% \\\\
+    Backend-forwarded requests      & {f_cnt(b_no, "backend_forwarded_requests")} & {f_cnt(b_wi, "backend_forwarded_requests")} \\\\
+    \\hline
+    Login-stage failure rate$^*$    & {f_rate(b_no, "error_rate", 2, is_fraction=True)} & {f_rate(b_wi, "error_rate", 2, is_fraction=True)} \\\\
+    \\hline
+  \\end{{tabular}}
+  \\vspace{{1ex}}
+  \\raggedright
+  \\footnotesize{{$^*$The login-stage failure rate specifically measures connection/socket exhaustion on the authentication endpoint, while the overall HTTP failure rate encompasses all attempted requests across both login and product endpoints.}}
+\\end{{table*}}
+"""
+    out_file = out_dir / "table-burst-mitigation.tex"
+    out_file.write_text(tex_content, encoding="utf-8")
+    print(f"[OK] Reviewer LaTeX table saved → {out_file}")
+
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -496,9 +586,15 @@ def main():
     else:
         print("[SKIP] Chart generation skipped (matplotlib not available).")
 
+    # ── Reviewer Table LaTeX Export ────────────────────────────
+    docs_dir = project_dir / "docs"
+    docs_dir.mkdir(parents=True, exist_ok=True)
+    export_reviewer_latex_table(all_stats, docs_dir)
+
     print(f"\n{'='*60}")
     print("  Analysis complete!")
     print(f"  CSV     → {csv_path}")
+    print(f"  LaTeX   → {docs_dir}/table-burst-mitigation.tex")
     print(f"  Charts  → {output_dir}/fig3-*.png, fig4-*.png, fig5-*.png")
     print(f"{'='*60}\n")
 
