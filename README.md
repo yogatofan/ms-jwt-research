@@ -12,11 +12,12 @@ ms-jwt-research/
 ├── order-service/    # Order service (port 3003)
 ├── load-testing/     # k6 test scripts
 │   └── results/      # Per-run summary JSON files
-├── visualisasi/      # Python visualization scripts & output figures
+├── docs/             # LaTeX tables, environment specs, and reports
 ├── scripts/          # Experiment automation scripts
 │   ├── run-all.sh    # Orchestrator: run all scenarios N times
-│   └── analyze.py    # Statistical analysis: mean ± SD, charts
-└── notes/            # Research notes
+│   ├── analyze.py    # Statistical analysis: mean ± SD, charts
+│   └── env-report.py # Auto-detect environment specifications
+└── visualisasi/      # Python visualization output figures
 ```
 
 ## Requirements
