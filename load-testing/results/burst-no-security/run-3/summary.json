@@ -1,0 +1,162 @@
+{
+    "metrics": {
+        "total_requests": {
+            "count": 87823,
+            "rate": 1254.5903588838698
+        },
+        "checks": {
+            "fails": 94466,
+            "passes": 7380,
+            "value": 0.07246234510928264
+        },
+        "error_rate": {
+            "passes": 43543,
+            "fails": 7380,
+            "thresholds": {
+                "rate<0.8": true
+            },
+            "value": 0.8550753097814348
+        },
+        "iteration_duration": {
+            "avg": 180.69081335314024,
+            "min": 0.596084,
+            "med": 62.947083,
+            "max": 8697.221167,
+            "p(90)": 529.4720246,
+            "p(95)": 626.2955374999998
+        },
+        "http_req_duration": {
+            "med": 0,
+            "max": 7084.51,
+            "p(90)": 16.55,
+            "p(95)": 19.662,
+            "avg": 26.164138847454563,
+            "min": 0
+        },
+        "http_req_blocked": {
+            "p(90)": 0.242,
+            "p(95)": 1.027,
+            "avg": 5.124019880896727,
+            "min": 0,
+            "med": 0,
+            "max": 4478.375
+        },
+        "iterations": {
+            "count": 50923,
+            "rate": 727.4575549166312
+        },
+        "http_req_sending": {
+            "med": 0,
+            "max": 3820.8,
+            "p(90)": 0.018,
+            "p(95)": 0.027,
+            "avg": 0.07426238001434884,
+            "min": 0
+        },
+        "http_req_connecting": {
+            "p(90)": 0.217,
+            "p(95)": 1.002899999999996,
+            "avg": 5.115234289423012,
+            "min": 0,
+            "med": 0,
+            "max": 4478.368
+        },
+        "http_req_failed": {
+            "passes": 46834,
+            "fails": 40989,
+            "value": 0.5332771597417533
+        },
+        "data_received": {
+            "count": 14531375,
+            "rate": 207587.11244578406
+        },
+        "vus": {
+            "max": 200,
+            "value": 1,
+            "min": 1
+        },
+        "login_latency": {
+            "max": 4711.7,
+            "p(90)": 4.129800000000001,
+            "p(95)": 11.369,
+            "avg": 12.492676217033543,
+            "min": 0,
+            "med": 0
+        },
+        "http_req_tls_handshaking": {
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "data_sent": {
+            "count": 11385834,
+            "rate": 162651.6694288759
+        },
+        "http_req_receiving": {
+            "p(90)": 0.026,
+            "p(95)": 0.037,
+            "avg": 0.038049861653553604,
+            "min": 0,
+            "med": 0,
+            "max": 153.046
+        },
+        "http_req_waiting": {
+            "avg": 26.051826605786612,
+            "min": 0,
+            "med": 0,
+            "max": 7084.476,
+            "p(90)": 16.498,
+            "p(95)": 19.601899999999997
+        },
+        "product_latency": {
+            "avg": 45.03112777777782,
+            "min": 0,
+            "med": 5.585,
+            "max": 7084.51,
+            "p(90)": 19.5162,
+            "p(95)": 23.69719999999999
+        },
+        "http_req_duration{expected_response:true}": {
+            "min": 0.26,
+            "med": 6.273,
+            "max": 7084.51,
+            "p(90)": 19.453,
+            "p(95)": 23.598399999999994,
+            "avg": 29.982436629339613
+        },
+        "vus_max": {
+            "value": 200,
+            "min": 200,
+            "max": 200
+        },
+        "http_reqs": {
+            "count": 87823,
+            "rate": 1254.5903588838698
+        }
+    },
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+                "login 200": {
+                    "fails": 43543,
+                    "name": "login 200",
+                    "path": "::login 200",
+                    "id": "48b06dc5cde7f6ebb606ad7da726a2a5",
+                    "passes": 7380
+                },
+                "rate limited 429": {
+                    "name": "rate limited 429",
+                    "path": "::rate limited 429",
+                    "id": "b1052014c90696877fde7aaa3c03b778",
+                    "passes": 0,
+                    "fails": 50923
+                }
+            }
+    }
+}

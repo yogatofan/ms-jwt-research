@@ -11,6 +11,7 @@
       "_origin": "ast",
       "id": "gateway_package",
       "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "gateway/package.json"
     },
     {
@@ -21,6 +22,7 @@
       "_origin": "ast",
       "id": "gateway_package_name",
       "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "name"
     },
     {
@@ -31,6 +33,7 @@
       "_origin": "ast",
       "id": "gateway_package_version",
       "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "version"
     },
     {
@@ -41,6 +44,7 @@
       "_origin": "ast",
       "id": "gateway_package_description",
       "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "description"
     },
     {
@@ -51,6 +55,7 @@
       "_origin": "ast",
       "id": "gateway_package_main",
       "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "main"
     },
     {
@@ -61,6 +66,7 @@
       "_origin": "ast",
       "id": "gateway_package_scripts",
       "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "scripts"
     },
     {
@@ -71,6 +77,7 @@
       "_origin": "ast",
       "id": "gateway_package_scripts_test",
       "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "test"
     },
     {
@@ -81,6 +88,7 @@
       "_origin": "ast",
       "id": "gateway_package_keywords",
       "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "keywords"
     },
     {
@@ -91,6 +99,7 @@
       "_origin": "ast",
       "id": "gateway_package_author",
       "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "author"
     },
     {
@@ -101,6 +110,7 @@
       "_origin": "ast",
       "id": "gateway_package_license",
       "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "license"
     },
     {
@@ -111,6 +121,7 @@
       "_origin": "ast",
       "id": "gateway_package_type",
       "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "type"
     },
     {
@@ -120,7 +131,8 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "gateway_package_dependencies",
-      "community": 6,
+      "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "dependencies"
     },
     {
@@ -130,7 +142,8 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "gateway_package_dependencies_dotenv",
-      "community": 0,
+      "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "dotenv"
     },
     {
@@ -140,7 +153,8 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "gateway_package_json_dotenv",
-      "community": 0,
+      "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "dotenv"
     },
     {
@@ -150,7 +164,8 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "gateway_package_dependencies_express",
-      "community": 6,
+      "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "express"
     },
     {
@@ -160,7 +175,8 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "gateway_package_json_express",
-      "community": 6,
+      "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "express"
     },
     {
@@ -170,7 +186,8 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "gateway_package_dependencies_express_rate_limit",
-      "community": 6,
+      "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "express-rate-limit"
     },
     {
@@ -180,7 +197,8 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "express_rate_limit",
-      "community": 6,
+      "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "express-rate-limit"
     },
     {
@@ -190,7 +208,8 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "gateway_package_dependencies_http_proxy_middleware",
-      "community": 6,
+      "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "http-proxy-middleware"
     },
     {
@@ -200,7 +219,8 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "http_proxy_middleware",
-      "community": 6,
+      "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "http-proxy-middleware"
     },
     {
@@ -210,7 +230,8 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "gateway_package_dependencies_jsonwebtoken",
-      "community": 6,
+      "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "jsonwebtoken"
     },
     {
@@ -220,7 +241,8 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "gateway_package_json_jsonwebtoken",
-      "community": 0,
+      "community": 2,
+      "community_name": "gateway/package.json",
       "norm_label": "jsonwebtoken"
     },
     {
@@ -231,6 +253,7 @@
       "_origin": "ast",
       "id": "gateway_src_app",
       "community": 9,
+      "community_name": "gateway/src/app.js",
       "norm_label": "gateway/src/app.js"
     },
     {
@@ -241,6 +264,7 @@
       "_origin": "ast",
       "id": "gateway_src_app_express",
       "community": 9,
+      "community_name": "gateway/src/app.js",
       "norm_label": "express"
     },
     {
@@ -251,6 +275,7 @@
       "_origin": "ast",
       "id": "gateway_src_app_ratelimit",
       "community": 9,
+      "community_name": "gateway/src/app.js",
       "norm_label": "ratelimit"
     },
     {
@@ -261,6 +286,7 @@
       "_origin": "ast",
       "id": "gateway_src_app_createproxymiddleware",
       "community": 9,
+      "community_name": "gateway/src/app.js",
       "norm_label": "{ createproxymiddleware }"
     },
     {
@@ -271,6 +297,7 @@
       "_origin": "ast",
       "id": "gateway_src_app_app",
       "community": 9,
+      "community_name": "gateway/src/app.js",
       "norm_label": "app"
     },
     {
@@ -281,6 +308,7 @@
       "_origin": "ast",
       "id": "gateway_src_app_globallimiter",
       "community": 9,
+      "community_name": "gateway/src/app.js",
       "norm_label": "globallimiter"
     },
     {
@@ -291,6 +319,7 @@
       "_origin": "ast",
       "id": "gateway_src_app_authlimiter",
       "community": 9,
+      "community_name": "gateway/src/app.js",
       "norm_label": "authlimiter"
     },
     {
@@ -301,6 +330,7 @@
       "_origin": "ast",
       "id": "load_testing_burst_traffic",
       "community": 10,
+      "community_name": "burst-traffic.js",
       "norm_label": "burst-traffic.js"
     },
     {
@@ -311,6 +341,7 @@
       "_origin": "ast",
       "id": "load_testing_burst_traffic_loginlatency",
       "community": 10,
+      "community_name": "burst-traffic.js",
       "norm_label": "loginlatency"
     },
     {
@@ -321,6 +352,7 @@
       "_origin": "ast",
       "id": "load_testing_burst_traffic_productlatency",
       "community": 10,
+      "community_name": "burst-traffic.js",
       "norm_label": "productlatency"
     },
     {
@@ -331,6 +363,7 @@
       "_origin": "ast",
       "id": "load_testing_burst_traffic_errorrate",
       "community": 10,
+      "community_name": "burst-traffic.js",
       "norm_label": "errorrate"
     },
     {
@@ -341,6 +374,7 @@
       "_origin": "ast",
       "id": "load_testing_burst_traffic_blockedreqs",
       "community": 10,
+      "community_name": "burst-traffic.js",
       "norm_label": "blockedreqs"
     },
     {
@@ -351,6 +385,7 @@
       "_origin": "ast",
       "id": "load_testing_burst_traffic_totalrequests",
       "community": 10,
+      "community_name": "burst-traffic.js",
       "norm_label": "totalrequests"
     },
     {
@@ -361,6 +396,7 @@
       "_origin": "ast",
       "id": "load_testing_burst_traffic_options",
       "community": 10,
+      "community_name": "burst-traffic.js",
       "norm_label": "options"
     },
     {
@@ -371,6 +407,7 @@
       "_origin": "ast",
       "id": "load_testing_normal_traffic",
       "community": 11,
+      "community_name": "normal-traffic.js",
       "norm_label": "normal-traffic.js"
     },
     {
@@ -381,6 +418,7 @@
       "_origin": "ast",
       "id": "load_testing_normal_traffic_loginlatency",
       "community": 11,
+      "community_name": "normal-traffic.js",
       "norm_label": "loginlatency"
     },
     {
@@ -391,6 +429,7 @@
       "_origin": "ast",
       "id": "load_testing_normal_traffic_productlatency",
       "community": 11,
+      "community_name": "normal-traffic.js",
       "norm_label": "productlatency"
     },
     {
@@ -401,6 +440,7 @@
       "_origin": "ast",
       "id": "load_testing_normal_traffic_orderlatency",
       "community": 11,
+      "community_name": "normal-traffic.js",
       "norm_label": "orderlatency"
     },
     {
@@ -411,6 +451,7 @@
       "_origin": "ast",
       "id": "load_testing_normal_traffic_errorrate",
       "community": 11,
+      "community_name": "normal-traffic.js",
       "norm_label": "errorrate"
     },
     {
@@ -421,6 +462,7 @@
       "_origin": "ast",
       "id": "load_testing_normal_traffic_totalrequests",
       "community": 11,
+      "community_name": "normal-traffic.js",
       "norm_label": "totalrequests"
     },
     {
@@ -431,6 +473,7 @@
       "_origin": "ast",
       "id": "load_testing_normal_traffic_options",
       "community": 11,
+      "community_name": "normal-traffic.js",
       "norm_label": "options"
     },
     {
@@ -441,6 +484,7 @@
       "_origin": "ast",
       "id": "load_testing_run_experiment",
       "community": 13,
+      "community_name": "run-experiment.js",
       "norm_label": "run-experiment.js"
     },
     {
@@ -451,6 +495,7 @@
       "_origin": "ast",
       "id": "load_testing_run_experiment_latency",
       "community": 13,
+      "community_name": "run-experiment.js",
       "norm_label": "latency"
     },
     {
@@ -461,6 +506,7 @@
       "_origin": "ast",
       "id": "load_testing_run_experiment_errorrate",
       "community": 13,
+      "community_name": "run-experiment.js",
       "norm_label": "errorrate"
     },
     {
@@ -471,6 +517,7 @@
       "_origin": "ast",
       "id": "load_testing_run_experiment_options",
       "community": 13,
+      "community_name": "run-experiment.js",
       "norm_label": "options"
     },
     {
@@ -481,6 +528,7 @@
       "_origin": "ast",
       "id": "order_service_package",
       "community": 3,
+      "community_name": "order-service/package.json",
       "norm_label": "order-service/package.json"
     },
     {
@@ -491,6 +539,7 @@
       "_origin": "ast",
       "id": "order_service_package_name",
       "community": 3,
+      "community_name": "order-service/package.json",
       "norm_label": "name"
     },
     {
@@ -501,6 +550,7 @@
       "_origin": "ast",
       "id": "order_service_package_version",
       "community": 3,
+      "community_name": "order-service/package.json",
       "norm_label": "version"
     },
     {
@@ -511,6 +561,7 @@
       "_origin": "ast",
       "id": "order_service_package_description",
       "community": 3,
+      "community_name": "order-service/package.json",
       "norm_label": "description"
     },
     {
@@ -521,6 +572,7 @@
       "_origin": "ast",
       "id": "order_service_package_main",
       "community": 3,
+      "community_name": "order-service/package.json",
       "norm_label": "main"
     },
     {
@@ -531,6 +583,7 @@
       "_origin": "ast",
       "id": "order_service_package_scripts",
       "community": 3,
+      "community_name": "order-service/package.json",
       "norm_label": "scripts"
     },
     {
@@ -541,6 +594,7 @@
       "_origin": "ast",
       "id": "order_service_package_scripts_test",
       "community": 3,
+      "community_name": "order-service/package.json",
       "norm_label": "test"
     },
     {
@@ -551,6 +605,7 @@
       "_origin": "ast",
       "id": "order_service_package_keywords",
       "community": 3,
+      "community_name": "order-service/package.json",
       "norm_label": "keywords"
     },
     {
@@ -561,6 +616,7 @@
       "_origin": "ast",
       "id": "order_service_package_author",
       "community": 3,
+      "community_name": "order-service/package.json",
       "norm_label": "author"
     },
     {
@@ -571,6 +627,7 @@
       "_origin": "ast",
       "id": "order_service_package_license",
       "community": 3,
+      "community_name": "order-service/package.json",
       "norm_label": "license"
     },
     {
@@ -581,6 +638,7 @@
       "_origin": "ast",
       "id": "order_service_package_type",
       "community": 3,
+      "community_name": "order-service/package.json",
       "norm_label": "type"
     },
     {
@@ -590,7 +648,8 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "order_service_package_dependencies",
-      "community": 0,
+      "community": 3,
+      "community_name": "order-service/package.json",
       "norm_label": "dependencies"
     },
     {
@@ -600,7 +659,19 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "order_service_package_dependencies_bcryptjs",
-      "community": 0,
+      "community": 3,
+      "community_name": "order-service/package.json",
+      "norm_label": "bcryptjs"
+    },
+    {
+      "label": "bcryptjs",
+      "file_type": "concept",
+      "source_file": "order-service/package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "order_service_package_json_bcryptjs",
+      "community": 3,
+      "community_name": "order-service/package.json",
       "norm_label": "bcryptjs"
     },
     {
@@ -610,7 +681,19 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "order_service_package_dependencies_dotenv",
-      "community": 0,
+      "community": 3,
+      "community_name": "order-service/package.json",
+      "norm_label": "dotenv"
+    },
+    {
+      "label": "dotenv",
+      "file_type": "concept",
+      "source_file": "order-service/package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "order_service_package_json_dotenv",
+      "community": 3,
+      "community_name": "order-service/package.json",
       "norm_label": "dotenv"
     },
     {
@@ -620,7 +703,8 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "order_service_package_dependencies_express",
-      "community": 0,
+      "community": 3,
+      "community_name": "order-service/package.json",
       "norm_label": "express"
     },
     {
@@ -630,7 +714,8 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "order_service_package_json_express",
-      "community": 0,
+      "community": 3,
+      "community_name": "order-service/package.json",
       "norm_label": "express"
     },
     {
@@ -640,7 +725,19 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "order_service_package_dependencies_jsonwebtoken",
-      "community": 0,
+      "community": 3,
+      "community_name": "order-service/package.json",
+      "norm_label": "jsonwebtoken"
+    },
+    {
+      "label": "jsonwebtoken",
+      "file_type": "concept",
+      "source_file": "order-service/package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "order_service_package_json_jsonwebtoken",
+      "community": 3,
+      "community_name": "order-service/package.json",
       "norm_label": "jsonwebtoken"
     },
     {
@@ -651,6 +748,7 @@
       "_origin": "ast",
       "id": "order_service_src_app",
       "community": 7,
+      "community_name": "order-service/src/app.js",
       "norm_label": "order-service/src/app.js"
     },
     {
@@ -661,6 +759,7 @@
       "_origin": "ast",
       "id": "order_service_src_app_express",
       "community": 7,
+      "community_name": "order-service/src/app.js",
       "norm_label": "express"
     },
     {
@@ -671,6 +770,7 @@
       "_origin": "ast",
       "id": "order_service_src_app_app",
       "community": 7,
+      "community_name": "order-service/src/app.js",
       "norm_label": "app"
     },
     {
@@ -681,6 +781,7 @@
       "_origin": "ast",
       "id": "order_service_src_app_verifytoken",
       "community": 7,
+      "community_name": "order-service/src/app.js",
       "norm_label": "{ verifytoken }"
     },
     {
@@ -691,6 +792,7 @@
       "_origin": "ast",
       "id": "order_service_src_app_orders",
       "community": 7,
+      "community_name": "order-service/src/app.js",
       "norm_label": "orders"
     },
     {
@@ -701,6 +803,7 @@
       "_origin": "ast",
       "id": "order_service_src_middleware_auth",
       "community": 7,
+      "community_name": "order-service/src/app.js",
       "norm_label": "order-service/src/middleware/auth.js"
     },
     {
@@ -711,6 +814,7 @@
       "_origin": "ast",
       "id": "order_service_src_middleware_auth_jwt",
       "community": 7,
+      "community_name": "order-service/src/app.js",
       "norm_label": "jwt"
     },
     {
@@ -721,6 +825,7 @@
       "_origin": "ast",
       "id": "order_service_src_middleware_auth_verifytoken",
       "community": 7,
+      "community_name": "order-service/src/app.js",
       "norm_label": "verifytoken()"
     },
     {
@@ -731,6 +836,7 @@
       "_origin": "ast",
       "id": "order_service_src_middleware_ratelimit",
       "community": 15,
+      "community_name": "order-service/src/middleware/rateLimit.js",
       "norm_label": "order-service/src/middleware/ratelimit.js"
     },
     {
@@ -741,6 +847,7 @@
       "_origin": "ast",
       "id": "package",
       "community": 1,
+      "community_name": "scripts",
       "norm_label": "package.json"
     },
     {
@@ -751,6 +858,7 @@
       "_origin": "ast",
       "id": "package_name",
       "community": 1,
+      "community_name": "scripts",
       "norm_label": "name"
     },
     {
@@ -761,6 +869,7 @@
       "_origin": "ast",
       "id": "package_version",
       "community": 1,
+      "community_name": "scripts",
       "norm_label": "version"
     },
     {
@@ -771,6 +880,7 @@
       "_origin": "ast",
       "id": "package_scripts",
       "community": 1,
+      "community_name": "scripts",
       "norm_label": "scripts"
     },
     {
@@ -781,6 +891,7 @@
       "_origin": "ast",
       "id": "package_scripts_install_all",
       "community": 1,
+      "community_name": "scripts",
       "norm_label": "install:all"
     },
     {
@@ -791,6 +902,7 @@
       "_origin": "ast",
       "id": "package_scripts_start",
       "community": 1,
+      "community_name": "scripts",
       "norm_label": "start"
     },
     {
@@ -801,6 +913,7 @@
       "_origin": "ast",
       "id": "package_scripts_start_no_security",
       "community": 1,
+      "community_name": "scripts",
       "norm_label": "start:no-security"
     },
     {
@@ -811,6 +924,7 @@
       "_origin": "ast",
       "id": "package_scripts_start_with_security",
       "community": 1,
+      "community_name": "scripts",
       "norm_label": "start:with-security"
     },
     {
@@ -821,6 +935,7 @@
       "_origin": "ast",
       "id": "package_devdependencies",
       "community": 1,
+      "community_name": "scripts",
       "norm_label": "devdependencies"
     },
     {
@@ -831,6 +946,7 @@
       "_origin": "ast",
       "id": "package_devdependencies_concurrently",
       "community": 1,
+      "community_name": "scripts",
       "norm_label": "concurrently"
     },
     {
@@ -841,6 +957,7 @@
       "_origin": "ast",
       "id": "concurrently",
       "community": 1,
+      "community_name": "scripts",
       "norm_label": "concurrently"
     },
     {
@@ -851,6 +968,7 @@
       "_origin": "ast",
       "id": "package_devdependencies_cross_env",
       "community": 1,
+      "community_name": "scripts",
       "norm_label": "cross-env"
     },
     {
@@ -861,6 +979,7 @@
       "_origin": "ast",
       "id": "cross_env",
       "community": 1,
+      "community_name": "scripts",
       "norm_label": "cross-env"
     },
     {
@@ -871,6 +990,7 @@
       "_origin": "ast",
       "id": "product_service_package",
       "community": 4,
+      "community_name": "product-service/package.json",
       "norm_label": "product-service/package.json"
     },
     {
@@ -881,6 +1001,7 @@
       "_origin": "ast",
       "id": "product_service_package_name",
       "community": 4,
+      "community_name": "product-service/package.json",
       "norm_label": "name"
     },
     {
@@ -891,6 +1012,7 @@
       "_origin": "ast",
       "id": "product_service_package_version",
       "community": 4,
+      "community_name": "product-service/package.json",
       "norm_label": "version"
     },
     {
@@ -901,6 +1023,7 @@
       "_origin": "ast",
       "id": "product_service_package_description",
       "community": 4,
+      "community_name": "product-service/package.json",
       "norm_label": "description"
     },
     {
@@ -911,6 +1034,7 @@
       "_origin": "ast",
       "id": "product_service_package_main",
       "community": 4,
+      "community_name": "product-service/package.json",
       "norm_label": "main"
     },
     {
@@ -921,6 +1045,7 @@
       "_origin": "ast",
       "id": "product_service_package_scripts",
       "community": 4,
+      "community_name": "product-service/package.json",
       "norm_label": "scripts"
     },
     {
@@ -931,6 +1056,7 @@
       "_origin": "ast",
       "id": "product_service_package_scripts_test",
       "community": 4,
+      "community_name": "product-service/package.json",
       "norm_label": "test"
     },
     {
@@ -941,6 +1067,7 @@
       "_origin": "ast",
       "id": "product_service_package_keywords",
       "community": 4,
+      "community_name": "product-service/package.json",
       "norm_label": "keywords"
     },
     {
@@ -951,6 +1078,7 @@
       "_origin": "ast",
       "id": "product_service_package_author",
       "community": 4,
+      "community_name": "product-service/package.json",
       "norm_label": "author"
     },
     {
@@ -961,6 +1089,7 @@
       "_origin": "ast",
       "id": "product_service_package_license",
       "community": 4,
+      "community_name": "product-service/package.json",
       "norm_label": "license"
     },
     {
@@ -971,6 +1100,7 @@
       "_origin": "ast",
       "id": "product_service_package_type",
       "community": 4,
+      "community_name": "product-service/package.json",
       "norm_label": "type"
     },
     {
@@ -980,7 +1110,8 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "product_service_package_dependencies",
-      "community": 0,
+      "community": 4,
+      "community_name": "product-service/package.json",
       "norm_label": "dependencies"
     },
     {
@@ -990,7 +1121,19 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "product_service_package_dependencies_bcryptjs",
-      "community": 0,
+      "community": 4,
+      "community_name": "product-service/package.json",
+      "norm_label": "bcryptjs"
+    },
+    {
+      "label": "bcryptjs",
+      "file_type": "concept",
+      "source_file": "product-service/package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "product_service_package_json_bcryptjs",
+      "community": 4,
+      "community_name": "product-service/package.json",
       "norm_label": "bcryptjs"
     },
     {
@@ -1000,7 +1143,19 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "product_service_package_dependencies_dotenv",
-      "community": 0,
+      "community": 4,
+      "community_name": "product-service/package.json",
+      "norm_label": "dotenv"
+    },
+    {
+      "label": "dotenv",
+      "file_type": "concept",
+      "source_file": "product-service/package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "product_service_package_json_dotenv",
+      "community": 4,
+      "community_name": "product-service/package.json",
       "norm_label": "dotenv"
     },
     {
@@ -1010,7 +1165,8 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "product_service_package_dependencies_express",
-      "community": 0,
+      "community": 4,
+      "community_name": "product-service/package.json",
       "norm_label": "express"
     },
     {
@@ -1020,7 +1176,8 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "product_service_package_json_express",
-      "community": 0,
+      "community": 4,
+      "community_name": "product-service/package.json",
       "norm_label": "express"
     },
     {
@@ -1030,7 +1187,19 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "product_service_package_dependencies_jsonwebtoken",
-      "community": 0,
+      "community": 4,
+      "community_name": "product-service/package.json",
+      "norm_label": "jsonwebtoken"
+    },
+    {
+      "label": "jsonwebtoken",
+      "file_type": "concept",
+      "source_file": "product-service/package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "product_service_package_json_jsonwebtoken",
+      "community": 4,
+      "community_name": "product-service/package.json",
       "norm_label": "jsonwebtoken"
     },
     {
@@ -1041,6 +1210,7 @@
       "_origin": "ast",
       "id": "product_service_src_app",
       "community": 8,
+      "community_name": "product-service/src/app.js",
       "norm_label": "product-service/src/app.js"
     },
     {
@@ -1051,6 +1221,7 @@
       "_origin": "ast",
       "id": "product_service_src_app_express",
       "community": 8,
+      "community_name": "product-service/src/app.js",
       "norm_label": "express"
     },
     {
@@ -1061,6 +1232,7 @@
       "_origin": "ast",
       "id": "product_service_src_app_app",
       "community": 8,
+      "community_name": "product-service/src/app.js",
       "norm_label": "app"
     },
     {
@@ -1071,6 +1243,7 @@
       "_origin": "ast",
       "id": "product_service_src_app_verifytoken",
       "community": 8,
+      "community_name": "product-service/src/app.js",
       "norm_label": "{ verifytoken }"
     },
     {
@@ -1081,6 +1254,7 @@
       "_origin": "ast",
       "id": "product_service_src_app_products",
       "community": 8,
+      "community_name": "product-service/src/app.js",
       "norm_label": "products"
     },
     {
@@ -1091,6 +1265,7 @@
       "_origin": "ast",
       "id": "product_service_src_middleware_auth",
       "community": 8,
+      "community_name": "product-service/src/app.js",
       "norm_label": "product-service/src/middleware/auth.js"
     },
     {
@@ -1101,6 +1276,7 @@
       "_origin": "ast",
       "id": "product_service_src_middleware_auth_jwt",
       "community": 8,
+      "community_name": "product-service/src/app.js",
       "norm_label": "jwt"
     },
     {
@@ -1111,6 +1287,7 @@
       "_origin": "ast",
       "id": "product_service_src_middleware_auth_verifytoken",
       "community": 8,
+      "community_name": "product-service/src/app.js",
       "norm_label": "verifytoken()"
     },
     {
@@ -1121,7 +1298,774 @@
       "_origin": "ast",
       "id": "product_service_src_middleware_ratelimit",
       "community": 16,
+      "community_name": "product-service/src/middleware/rateLimit.js",
       "norm_label": "product-service/src/middleware/ratelimit.js"
+    },
+    {
+      "label": "analyze.py",
+      "file_type": "code",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "scripts_analyze",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "analyze.py"
+    },
+    {
+      "label": "safe_get()",
+      "file_type": "code",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "scripts_analyze_safe_get",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "safe_get()"
+    },
+    {
+      "label": "extract_metrics()",
+      "file_type": "code",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "scripts_analyze_extract_metrics",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "extract_metrics()"
+    },
+    {
+      "label": "mean()",
+      "file_type": "code",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L110",
+      "_origin": "ast",
+      "id": "scripts_analyze_mean",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "mean()"
+    },
+    {
+      "label": "std()",
+      "file_type": "code",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L117",
+      "_origin": "ast",
+      "id": "scripts_analyze_std",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "std()"
+    },
+    {
+      "label": "compute_stats()",
+      "file_type": "code",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L126",
+      "_origin": "ast",
+      "id": "scripts_analyze_compute_stats",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "compute_stats()"
+    },
+    {
+      "label": "fmt()",
+      "file_type": "code",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L137",
+      "_origin": "ast",
+      "id": "scripts_analyze_fmt",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "fmt()"
+    },
+    {
+      "label": "fmt_pct()",
+      "file_type": "code",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L143",
+      "_origin": "ast",
+      "id": "scripts_analyze_fmt_pct",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "fmt_pct()"
+    },
+    {
+      "label": "print_table()",
+      "file_type": "code",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L185",
+      "_origin": "ast",
+      "id": "scripts_analyze_print_table",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "print_table()"
+    },
+    {
+      "label": "write_csv()",
+      "file_type": "code",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L218",
+      "_origin": "ast",
+      "id": "scripts_analyze_write_csv",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "write_csv()"
+    },
+    {
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "scripts_analyze_py_path",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "path"
+    },
+    {
+      "label": "_bar_with_errbar()",
+      "file_type": "code",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L252",
+      "_origin": "ast",
+      "id": "scripts_analyze_bar_with_errbar",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "_bar_with_errbar()"
+    },
+    {
+      "label": "fig3_normal_latency()",
+      "file_type": "code",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L261",
+      "_origin": "ast",
+      "id": "scripts_analyze_fig3_normal_latency",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "fig3_normal_latency()"
+    },
+    {
+      "label": "fig4_burst_traffic()",
+      "file_type": "code",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L305",
+      "_origin": "ast",
+      "id": "scripts_analyze_fig4_burst_traffic",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "fig4_burst_traffic()"
+    },
+    {
+      "label": "fig5_throughput()",
+      "file_type": "code",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L371",
+      "_origin": "ast",
+      "id": "scripts_analyze_fig5_throughput",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "fig5_throughput()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L404",
+      "_origin": "ast",
+      "id": "scripts_analyze_main",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "main()"
+    },
+    {
+      "label": "Traverse nested dict safely.",
+      "file_type": "rationale",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "scripts_analyze_rationale_51",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "traverse nested dict safely."
+    },
+    {
+      "label": "Pull the KPIs we care about from a k6 --summary-export JSON. Returns a flat\u2026",
+      "file_type": "rationale",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "scripts_analyze_rationale_63",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "pull the kpis we care about from a k6 --summary-export json. returns a flat..."
+    },
+    {
+      "label": "Given list of metric dicts (one per run), return {metric: (mean, sd)}.",
+      "file_type": "rationale",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L127",
+      "_origin": "ast",
+      "id": "scripts_analyze_rationale_127",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "given list of metric dicts (one per run), return {metric: (mean, sd)}."
+    },
+    {
+      "label": "Pretty-print a metric \u00d7 scenario table.",
+      "file_type": "rationale",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L186",
+      "_origin": "ast",
+      "id": "scripts_analyze_rationale_186",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "pretty-print a metric \u00d7 scenario table."
+    },
+    {
+      "label": "Fig 3 \u2013 Normal Traffic: avg latency per endpoint, with error bars (\u00b1 1 SD).\u2026",
+      "file_type": "rationale",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L262",
+      "_origin": "ast",
+      "id": "scripts_analyze_rationale_262",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "fig 3 \u2013 normal traffic: avg latency per endpoint, with error bars (\u00b1 1 sd)...."
+    },
+    {
+      "label": "Fig 4 \u2013 Burst Traffic: error rate + max latency, with error bars (\u00b1 1 SD).\u2026",
+      "file_type": "rationale",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L306",
+      "_origin": "ast",
+      "id": "scripts_analyze_rationale_306",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "fig 4 \u2013 burst traffic: error rate + max latency, with error bars (\u00b1 1 sd)...."
+    },
+    {
+      "label": "Fig 5 (bonus) \u2013 Throughput comparison across all four scenarios.",
+      "file_type": "rationale",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L372",
+      "_origin": "ast",
+      "id": "scripts_analyze_rationale_372",
+      "community": 6,
+      "community_name": "analyze.py",
+      "norm_label": "fig 5 (bonus) \u2013 throughput comparison across all four scenarios."
+    },
+    {
+      "label": "env-report.py",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "scripts_env_report",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "env-report.py"
+    },
+    {
+      "label": "ok()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "scripts_env_report_ok",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "ok()"
+    },
+    {
+      "label": "info()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "scripts_env_report_info",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "info()"
+    },
+    {
+      "label": "warn()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "scripts_env_report_warn",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "warn()"
+    },
+    {
+      "label": "run()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "scripts_env_report_run",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "run()"
+    },
+    {
+      "label": "detect_machine()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "scripts_env_report_detect_machine",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "detect_machine()"
+    },
+    {
+      "label": "detect_cpu()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L76",
+      "_origin": "ast",
+      "id": "scripts_env_report_detect_cpu",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "detect_cpu()"
+    },
+    {
+      "label": "detect_ram()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "scripts_env_report_detect_ram",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "detect_ram()"
+    },
+    {
+      "label": "detect_os()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L122",
+      "_origin": "ast",
+      "id": "scripts_env_report_detect_os",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "detect_os()"
+    },
+    {
+      "label": "detect_node()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L136",
+      "_origin": "ast",
+      "id": "scripts_env_report_detect_node",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "detect_node()"
+    },
+    {
+      "label": "detect_npm()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L142",
+      "_origin": "ast",
+      "id": "scripts_env_report_detect_npm",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "detect_npm()"
+    },
+    {
+      "label": "detect_python()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L147",
+      "_origin": "ast",
+      "id": "scripts_env_report_detect_python",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "detect_python()"
+    },
+    {
+      "label": "detect_k6()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L153",
+      "_origin": "ast",
+      "id": "scripts_env_report_detect_k6",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "detect_k6()"
+    },
+    {
+      "label": "detect_npm_package()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L162",
+      "_origin": "ast",
+      "id": "scripts_env_report_detect_npm_package",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "detect_npm_package()"
+    },
+    {
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "scripts_env_report_py_path",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "path"
+    },
+    {
+      "label": "detect_arch()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L188",
+      "_origin": "ast",
+      "id": "scripts_env_report_detect_arch",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "detect_arch()"
+    },
+    {
+      "label": "collect_specs()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L198",
+      "_origin": "ast",
+      "id": "scripts_env_report_collect_specs",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "collect_specs()"
+    },
+    {
+      "label": "render_terminal()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L266",
+      "_origin": "ast",
+      "id": "scripts_env_report_render_terminal",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "render_terminal()"
+    },
+    {
+      "label": "render_markdown()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L287",
+      "_origin": "ast",
+      "id": "scripts_env_report_render_markdown",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "render_markdown()"
+    },
+    {
+      "label": "render_csv()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L300",
+      "_origin": "ast",
+      "id": "scripts_env_report_render_csv",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "render_csv()"
+    },
+    {
+      "label": "render_latex()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L304",
+      "_origin": "ast",
+      "id": "scripts_env_report_render_latex",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "render_latex()"
+    },
+    {
+      "label": "render_txt()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L367",
+      "_origin": "ast",
+      "id": "scripts_env_report_render_txt",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "render_txt()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L390",
+      "_origin": "ast",
+      "id": "scripts_env_report_main",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "main()"
+    },
+    {
+      "label": "Run a shell command and return stdout, stripped.",
+      "file_type": "rationale",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "scripts_env_report_rationale_50",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "run a shell command and return stdout, stripped."
+    },
+    {
+      "label": "Return human-readable machine model (macOS only, falls back gracefully).",
+      "file_type": "rationale",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "scripts_env_report_rationale_62",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "return human-readable machine model (macos only, falls back gracefully)."
+    },
+    {
+      "label": "Return CPU description with core breakdown (macOS).",
+      "file_type": "rationale",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L77",
+      "_origin": "ast",
+      "id": "scripts_env_report_rationale_77",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "return cpu description with core breakdown (macos)."
+    },
+    {
+      "label": "Return RAM size in human-readable form.",
+      "file_type": "rationale",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L99",
+      "_origin": "ast",
+      "id": "scripts_env_report_rationale_99",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "return ram size in human-readable form."
+    },
+    {
+      "label": "Return OS name + version.",
+      "file_type": "rationale",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L123",
+      "_origin": "ast",
+      "id": "scripts_env_report_rationale_123",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "return os name + version."
+    },
+    {
+      "label": "Find an npm package version from node_modules across multiple service dirs.",
+      "file_type": "rationale",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L163",
+      "_origin": "ast",
+      "id": "scripts_env_report_rationale_163",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "find an npm package version from node_modules across multiple service dirs."
+    },
+    {
+      "label": "Return list of (component, specification, detected_value) tuples. 'component'\u2026",
+      "file_type": "rationale",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L199",
+      "_origin": "ast",
+      "id": "scripts_env_report_rationale_199",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "return list of (component, specification, detected_value) tuples. 'component'..."
+    },
+    {
+      "label": "Pretty-print a grouped table to stdout.",
+      "file_type": "rationale",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L267",
+      "_origin": "ast",
+      "id": "scripts_env_report_rationale_267",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "pretty-print a grouped table to stdout."
+    },
+    {
+      "label": "Generate a LaTeX table compatible with IEEE two-column format. Uses booktabs +\u2026",
+      "file_type": "rationale",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L305",
+      "_origin": "ast",
+      "id": "scripts_env_report_rationale_305",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "generate a latex table compatible with ieee two-column format. uses booktabs +..."
+    },
+    {
+      "label": "Plain text report for archival.",
+      "file_type": "rationale",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L368",
+      "_origin": "ast",
+      "id": "scripts_env_report_rationale_368",
+      "community": 0,
+      "community_name": "env-report.py",
+      "norm_label": "plain text report for archival."
+    },
+    {
+      "label": "run-all.sh",
+      "file_type": "code",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_run_all",
+      "community": 22,
+      "community_name": "run-all.sh",
+      "norm_label": "run-all.sh"
+    },
+    {
+      "label": "run-all.sh script",
+      "file_type": "code",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "scripts_run_all_sh__entry",
+      "community": 22,
+      "community_name": "run-all.sh",
+      "norm_label": "run-all.sh script"
+    },
+    {
+      "label": "log_info()",
+      "file_type": "code",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L35",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_run_all_log_info",
+      "community": 22,
+      "community_name": "run-all.sh",
+      "norm_label": "log_info()"
+    },
+    {
+      "label": "log_ok()",
+      "file_type": "code",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L36",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_run_all_log_ok",
+      "community": 22,
+      "community_name": "run-all.sh",
+      "norm_label": "log_ok()"
+    },
+    {
+      "label": "log_warn()",
+      "file_type": "code",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L37",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_run_all_log_warn",
+      "community": 22,
+      "community_name": "run-all.sh",
+      "norm_label": "log_warn()"
+    },
+    {
+      "label": "log_error()",
+      "file_type": "code",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L38",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_run_all_log_error",
+      "community": 22,
+      "community_name": "run-all.sh",
+      "norm_label": "log_error()"
+    },
+    {
+      "label": "log_section()",
+      "file_type": "code",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L39",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_run_all_log_section",
+      "community": 22,
+      "community_name": "run-all.sh",
+      "norm_label": "log_section()"
+    },
+    {
+      "label": "usage()",
+      "file_type": "code",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L42",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_run_all_usage",
+      "community": 22,
+      "community_name": "run-all.sh",
+      "norm_label": "usage()"
+    },
+    {
+      "label": "start_services()",
+      "file_type": "code",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L101",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_run_all_start_services",
+      "community": 22,
+      "community_name": "run-all.sh",
+      "norm_label": "start_services()"
+    },
+    {
+      "label": "stop_services()",
+      "file_type": "code",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L130",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_run_all_stop_services",
+      "community": 22,
+      "community_name": "run-all.sh",
+      "norm_label": "stop_services()"
     },
     {
       "label": "user-service/package.json",
@@ -1131,6 +2075,7 @@
       "_origin": "ast",
       "id": "user_service_package",
       "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "user-service/package.json"
     },
     {
@@ -1141,6 +2086,7 @@
       "_origin": "ast",
       "id": "user_service_package_name",
       "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "name"
     },
     {
@@ -1151,6 +2097,7 @@
       "_origin": "ast",
       "id": "user_service_package_version",
       "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "version"
     },
     {
@@ -1161,6 +2108,7 @@
       "_origin": "ast",
       "id": "user_service_package_description",
       "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "description"
     },
     {
@@ -1171,6 +2119,7 @@
       "_origin": "ast",
       "id": "user_service_package_main",
       "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "main"
     },
     {
@@ -1181,6 +2130,7 @@
       "_origin": "ast",
       "id": "user_service_package_scripts",
       "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "scripts"
     },
     {
@@ -1191,6 +2141,7 @@
       "_origin": "ast",
       "id": "user_service_package_scripts_test",
       "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "test"
     },
     {
@@ -1201,6 +2152,7 @@
       "_origin": "ast",
       "id": "user_service_package_keywords",
       "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "keywords"
     },
     {
@@ -1211,6 +2163,7 @@
       "_origin": "ast",
       "id": "user_service_package_author",
       "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "author"
     },
     {
@@ -1221,6 +2174,7 @@
       "_origin": "ast",
       "id": "user_service_package_license",
       "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "license"
     },
     {
@@ -1231,6 +2185,7 @@
       "_origin": "ast",
       "id": "user_service_package_type",
       "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "type"
     },
     {
@@ -1240,7 +2195,8 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "user_service_package_dependencies",
-      "community": 0,
+      "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "dependencies"
     },
     {
@@ -1250,7 +2206,8 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "user_service_package_dependencies_bcryptjs",
-      "community": 0,
+      "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "bcryptjs"
     },
     {
@@ -1260,7 +2217,8 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "user_service_package_json_bcryptjs",
-      "community": 0,
+      "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "bcryptjs"
     },
     {
@@ -1270,7 +2228,19 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "user_service_package_dependencies_dotenv",
-      "community": 0,
+      "community": 5,
+      "community_name": "user-service/package.json",
+      "norm_label": "dotenv"
+    },
+    {
+      "label": "dotenv",
+      "file_type": "concept",
+      "source_file": "user-service/package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "user_service_package_json_dotenv",
+      "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "dotenv"
     },
     {
@@ -1280,7 +2250,8 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "user_service_package_dependencies_express",
-      "community": 0,
+      "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "express"
     },
     {
@@ -1290,7 +2261,8 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "user_service_package_json_express",
-      "community": 0,
+      "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "express"
     },
     {
@@ -1300,7 +2272,19 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "user_service_package_dependencies_jsonwebtoken",
-      "community": 0,
+      "community": 5,
+      "community_name": "user-service/package.json",
+      "norm_label": "jsonwebtoken"
+    },
+    {
+      "label": "jsonwebtoken",
+      "file_type": "concept",
+      "source_file": "user-service/package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "user_service_package_json_jsonwebtoken",
+      "community": 5,
+      "community_name": "user-service/package.json",
       "norm_label": "jsonwebtoken"
     },
     {
@@ -1311,6 +2295,7 @@
       "_origin": "ast",
       "id": "user_service_src_app",
       "community": 12,
+      "community_name": "user-service/src/app.js",
       "norm_label": "user-service/src/app.js"
     },
     {
@@ -1321,6 +2306,7 @@
       "_origin": "ast",
       "id": "user_service_src_app_express",
       "community": 12,
+      "community_name": "user-service/src/app.js",
       "norm_label": "express"
     },
     {
@@ -1331,6 +2317,7 @@
       "_origin": "ast",
       "id": "user_service_src_app_jwt",
       "community": 12,
+      "community_name": "user-service/src/app.js",
       "norm_label": "jwt"
     },
     {
@@ -1341,6 +2328,7 @@
       "_origin": "ast",
       "id": "user_service_src_app_app",
       "community": 12,
+      "community_name": "user-service/src/app.js",
       "norm_label": "app"
     },
     {
@@ -1351,6 +2339,7 @@
       "_origin": "ast",
       "id": "user_service_src_app_users",
       "community": 12,
+      "community_name": "user-service/src/app.js",
       "norm_label": "users"
     },
     {
@@ -1361,6 +2350,7 @@
       "_origin": "ast",
       "id": "user_service_src_middleware_auth",
       "community": 14,
+      "community_name": "user-service/src/middleware/auth.js",
       "norm_label": "user-service/src/middleware/auth.js"
     },
     {
@@ -1371,6 +2361,7 @@
       "_origin": "ast",
       "id": "user_service_src_middleware_auth_jwt",
       "community": 14,
+      "community_name": "user-service/src/middleware/auth.js",
       "norm_label": "jwt"
     },
     {
@@ -1381,6 +2372,7 @@
       "_origin": "ast",
       "id": "user_service_src_middleware_auth_verifytoken",
       "community": 14,
+      "community_name": "user-service/src/middleware/auth.js",
       "norm_label": "verifytoken()"
     },
     {
@@ -1391,6 +2383,7 @@
       "_origin": "ast",
       "id": "user_service_src_middleware_ratelimit",
       "community": 17,
+      "community_name": "user-service/src/middleware/rateLimit.js",
       "norm_label": "user-service/src/middleware/ratelimit.js"
     },
     {
@@ -1401,6 +2394,7 @@
       "_origin": "ast",
       "id": "visualisasi_grafik1",
       "community": 18,
+      "community_name": "grafik1.py",
       "norm_label": "grafik1.py"
     },
     {
@@ -1411,7 +2405,349 @@
       "_origin": "ast",
       "id": "visualisasi_grafik2",
       "community": 19,
+      "community_name": "grafik2.py",
       "norm_label": "grafik2.py"
+    },
+    {
+      "label": "rules/graphify.md",
+      "file_type": "document",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_rules_graphify",
+      "community": 23,
+      "community_name": "rules/graphify.md",
+      "norm_label": "rules/graphify.md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "agents_rules_graphify_graphify",
+      "community": 23,
+      "community_name": "rules/graphify.md",
+      "norm_label": "graphify"
+    },
+    {
+      "label": "workflows/graphify.md",
+      "file_type": "document",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agents_workflows_graphify",
+      "community": 24,
+      "community_name": "workflows/graphify.md",
+      "norm_label": "workflows/graphify.md"
+    },
+    {
+      "label": "Workflow: graphify",
+      "file_type": "document",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "agents_workflows_graphify_workflow_graphify",
+      "community": 24,
+      "community_name": "workflows/graphify.md",
+      "norm_label": "workflow: graphify"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 21,
+      "community_name": "Microservices JWT Research",
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Microservices JWT Research",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_microservices_jwt_research",
+      "community": 21,
+      "community_name": "Microservices JWT Research",
+      "norm_label": "microservices jwt research"
+    },
+    {
+      "label": "Project Structure",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "readme_project_structure",
+      "community": 21,
+      "community_name": "Microservices JWT Research",
+      "norm_label": "project structure"
+    },
+    {
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "readme_requirements",
+      "community": 21,
+      "community_name": "Microservices JWT Research",
+      "norm_label": "requirements"
+    },
+    {
+      "label": "Quick Start (One-time Setup)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "readme_quick_start_one_time_setup",
+      "community": 21,
+      "community_name": "Microservices JWT Research",
+      "norm_label": "quick start (one-time setup)"
+    },
+    {
+      "label": "Running the Project (Manual)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "readme_running_the_project_manual",
+      "community": 21,
+      "community_name": "Microservices JWT Research",
+      "norm_label": "running the project (manual)"
+    },
+    {
+      "label": "Repeated Experiments (for Statistical Validity)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "readme_repeated_experiments_for_statistical_validity",
+      "community": 21,
+      "community_name": "Microservices JWT Research",
+      "norm_label": "repeated experiments (for statistical validity)"
+    },
+    {
+      "label": "Step 1 \u2014 Run all scenarios N times (automated)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "readme_step_1_run_all_scenarios_n_times_automated",
+      "community": 21,
+      "community_name": "Microservices JWT Research",
+      "norm_label": "step 1 \u2014 run all scenarios n times (automated)"
+    },
+    {
+      "label": "Step 2 \u2014 Analyze & generate statistical figures",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L94",
+      "_origin": "ast",
+      "id": "readme_step_2_analyze_generate_statistical_figures",
+      "community": 21,
+      "community_name": "Microservices JWT Research",
+      "norm_label": "step 2 \u2014 analyze & generate statistical figures"
+    },
+    {
+      "label": "Individual Load Testing (Manual)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L122",
+      "_origin": "ast",
+      "id": "readme_individual_load_testing_manual",
+      "community": 21,
+      "community_name": "Microservices JWT Research",
+      "norm_label": "individual load testing (manual)"
+    },
+    {
+      "label": "Environment Specification Report",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L132",
+      "_origin": "ast",
+      "id": "readme_environment_specification_report",
+      "community": 21,
+      "community_name": "Microservices JWT Research",
+      "norm_label": "environment specification report"
+    },
+    {
+      "label": "environment-spec.md",
+      "file_type": "document",
+      "source_file": "docs/environment-spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_environment_spec",
+      "community": 25,
+      "community_name": "environment-spec.md",
+      "norm_label": "environment-spec.md"
+    },
+    {
+      "label": "Test Environment Specification",
+      "file_type": "document",
+      "source_file": "docs/environment-spec.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_environment_spec_test_environment_specification",
+      "community": 25,
+      "community_name": "environment-spec.md",
+      "norm_label": "test environment specification"
+    },
+    {
+      "label": "statistical-summary.md",
+      "file_type": "document",
+      "source_file": "load-testing/results/statistical-summary.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "load_testing_results_statistical_summary",
+      "community": 27,
+      "community_name": "statistical-summary.md",
+      "norm_label": "statistical-summary.md"
+    },
+    {
+      "label": "error.md",
+      "file_type": "document",
+      "source_file": "notes/error.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "notes_error",
+      "community": 26,
+      "community_name": "error.md",
+      "norm_label": "error.md"
+    },
+    {
+      "label": "Error muncul ketika pengetesan burst traffic no-security",
+      "file_type": "document",
+      "source_file": "notes/error.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "notes_error_error_muncul_ketika_pengetesan_burst_traffic_no_security",
+      "community": 26,
+      "community_name": "error.md",
+      "norm_label": "error muncul ketika pengetesan burst traffic no-security"
+    },
+    {
+      "label": "start.md",
+      "file_type": "document",
+      "source_file": "notes/start.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "notes_start",
+      "community": 20,
+      "community_name": "\ud83d\udccc **Judul Terpilih**",
+      "norm_label": "start.md"
+    },
+    {
+      "label": "\ud83d\udccc **Judul Terpilih**",
+      "file_type": "document",
+      "source_file": "notes/start.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "notes_start_judul_terpilih",
+      "community": 20,
+      "community_name": "\ud83d\udccc **Judul Terpilih**",
+      "norm_label": "\ud83d\udccc **judul terpilih**"
+    },
+    {
+      "label": "\ud83e\udde0 **Inti Ide Penelitian**",
+      "file_type": "document",
+      "source_file": "notes/start.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "notes_start_inti_ide_penelitian",
+      "community": 20,
+      "community_name": "\ud83d\udccc **Judul Terpilih**",
+      "norm_label": "\ud83e\udde0 **inti ide penelitian**"
+    },
+    {
+      "label": "\ud83c\udfaf **Kontribusi Utama**",
+      "file_type": "document",
+      "source_file": "notes/start.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "notes_start_kontribusi_utama",
+      "community": 20,
+      "community_name": "\ud83d\udccc **Judul Terpilih**",
+      "norm_label": "\ud83c\udfaf **kontribusi utama**"
+    },
+    {
+      "label": "\u2699\ufe0f **Gambaran Sistem**",
+      "file_type": "document",
+      "source_file": "notes/start.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "notes_start_gambaran_sistem",
+      "community": 20,
+      "community_name": "\ud83d\udccc **Judul Terpilih**",
+      "norm_label": "\u2699\ufe0f **gambaran sistem**"
+    },
+    {
+      "label": "\ud83e\uddea **Metodologi Singkat**",
+      "file_type": "document",
+      "source_file": "notes/start.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "notes_start_metodologi_singkat",
+      "community": 20,
+      "community_name": "\ud83d\udccc **Judul Terpilih**",
+      "norm_label": "\ud83e\uddea **metodologi singkat**"
+    },
+    {
+      "label": "\ud83d\udcca **Output yang Diharapkan**",
+      "file_type": "document",
+      "source_file": "notes/start.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "notes_start_output_yang_diharapkan",
+      "community": 20,
+      "community_name": "\ud83d\udccc **Judul Terpilih**",
+      "norm_label": "\ud83d\udcca **output yang diharapkan**"
+    },
+    {
+      "label": "\ud83d\ude80 **Next Steps (yang akan kita kerjakan)**",
+      "file_type": "document",
+      "source_file": "notes/start.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "notes_start_next_steps_yang_akan_kita_kerjakan",
+      "community": 20,
+      "community_name": "\ud83d\udccc **Judul Terpilih**",
+      "norm_label": "\ud83d\ude80 **next steps (yang akan kita kerjakan)**"
+    },
+    {
+      "label": "1. \ud83d\udd27 Step-by-step implementasi",
+      "file_type": "document",
+      "source_file": "notes/start.md",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "notes_start_1_step_by_step_implementasi",
+      "community": 20,
+      "community_name": "\ud83d\udccc **Judul Terpilih**",
+      "norm_label": "1. \ud83d\udd27 step-by-step implementasi"
+    },
+    {
+      "label": "2. \ud83e\uddea Template eksperimen & load testing",
+      "file_type": "document",
+      "source_file": "notes/start.md",
+      "source_location": "L74",
+      "_origin": "ast",
+      "id": "notes_start_2_template_eksperimen_load_testing",
+      "community": 20,
+      "community_name": "\ud83d\udccc **Judul Terpilih**",
+      "norm_label": "2. \ud83e\uddea template eksperimen & load testing"
+    },
+    {
+      "label": "3. \ud83d\udcdd Outline paper IEEE",
+      "file_type": "document",
+      "source_file": "notes/start.md",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "notes_start_3_outline_paper_ieee",
+      "community": 20,
+      "community_name": "\ud83d\udccc **Judul Terpilih**",
+      "norm_label": "3. \ud83d\udcdd outline paper ieee"
     }
   ],
   "links": [
@@ -1606,42 +2942,6 @@
     {
       "relation": "imports",
       "confidence": "EXTRACTED",
-      "source_file": "order-service/package.json",
-      "source_location": "L15",
-      "weight": 1.0,
-      "context": "import",
-      "_origin": "ast",
-      "source": "order_service_package_dependencies_dotenv",
-      "target": "gateway_package_json_dotenv",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "product-service/package.json",
-      "source_location": "L15",
-      "weight": 1.0,
-      "context": "import",
-      "_origin": "ast",
-      "source": "product_service_package_dependencies_dotenv",
-      "target": "gateway_package_json_dotenv",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "user-service/package.json",
-      "source_location": "L15",
-      "weight": 1.0,
-      "context": "import",
-      "_origin": "ast",
-      "source": "user_service_package_dependencies_dotenv",
-      "target": "gateway_package_json_dotenv",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
       "source_file": "gateway/package.json",
       "source_location": "L15",
       "weight": 1.0,
@@ -1684,42 +2984,6 @@
       "context": "import",
       "_origin": "ast",
       "source": "gateway_package_dependencies_jsonwebtoken",
-      "target": "gateway_package_json_jsonwebtoken",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "order-service/package.json",
-      "source_location": "L17",
-      "weight": 1.0,
-      "context": "import",
-      "_origin": "ast",
-      "source": "order_service_package_dependencies_jsonwebtoken",
-      "target": "gateway_package_json_jsonwebtoken",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "product-service/package.json",
-      "source_location": "L17",
-      "weight": 1.0,
-      "context": "import",
-      "_origin": "ast",
-      "source": "product_service_package_dependencies_jsonwebtoken",
-      "target": "gateway_package_json_jsonwebtoken",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "source_file": "user-service/package.json",
-      "source_location": "L17",
-      "weight": 1.0,
-      "context": "import",
-      "_origin": "ast",
-      "source": "user_service_package_dependencies_jsonwebtoken",
       "target": "gateway_package_json_jsonwebtoken",
       "confidence_score": 1.0
     },
@@ -2128,7 +3392,19 @@
       "context": "import",
       "_origin": "ast",
       "source": "order_service_package_dependencies_bcryptjs",
-      "target": "user_service_package_json_bcryptjs",
+      "target": "order_service_package_json_bcryptjs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "order-service/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast",
+      "source": "order_service_package_dependencies_dotenv",
+      "target": "order_service_package_json_dotenv",
       "confidence_score": 1.0
     },
     {
@@ -2141,6 +3417,18 @@
       "_origin": "ast",
       "source": "order_service_package_dependencies_express",
       "target": "order_service_package_json_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "order-service/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast",
+      "source": "order_service_package_dependencies_jsonwebtoken",
+      "target": "order_service_package_json_jsonwebtoken",
       "confidence_score": 1.0
     },
     {
@@ -2542,7 +3830,19 @@
       "context": "import",
       "_origin": "ast",
       "source": "product_service_package_dependencies_bcryptjs",
-      "target": "user_service_package_json_bcryptjs",
+      "target": "product_service_package_json_bcryptjs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "product-service/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast",
+      "source": "product_service_package_dependencies_dotenv",
+      "target": "product_service_package_json_dotenv",
       "confidence_score": 1.0
     },
     {
@@ -2555,6 +3855,18 @@
       "_origin": "ast",
       "source": "product_service_package_dependencies_express",
       "target": "product_service_package_json_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "product-service/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast",
+      "source": "product_service_package_dependencies_jsonwebtoken",
+      "target": "product_service_package_json_jsonwebtoken",
       "confidence_score": 1.0
     },
     {
@@ -2647,6 +3959,1445 @@
       "source": "product_service_src_middleware_auth",
       "target": "product_service_src_middleware_auth_verifytoken",
       "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L252",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze",
+      "target": "scripts_analyze_bar_with_errbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L126",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze",
+      "target": "scripts_analyze_compute_stats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze",
+      "target": "scripts_analyze_extract_metrics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L261",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze",
+      "target": "scripts_analyze_fig3_normal_latency",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L305",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze",
+      "target": "scripts_analyze_fig4_burst_traffic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L371",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze",
+      "target": "scripts_analyze_fig5_throughput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L137",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze",
+      "target": "scripts_analyze_fmt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L143",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze",
+      "target": "scripts_analyze_fmt_pct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L404",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze",
+      "target": "scripts_analyze_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L110",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze",
+      "target": "scripts_analyze_mean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L185",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze",
+      "target": "scripts_analyze_print_table",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze",
+      "target": "scripts_analyze_safe_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L117",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze",
+      "target": "scripts_analyze_std",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L218",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze",
+      "target": "scripts_analyze_write_csv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_rationale_51",
+      "target": "scripts_analyze_safe_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L454",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_main",
+      "target": "scripts_analyze_extract_metrics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_rationale_63",
+      "target": "scripts_analyze_extract_metrics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L129",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_compute_stats",
+      "target": "scripts_analyze_mean",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L129",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_compute_stats",
+      "target": "scripts_analyze_std",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L466",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_main",
+      "target": "scripts_analyze_compute_stats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L127",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_rationale_127",
+      "target": "scripts_analyze_compute_stats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L206",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_print_table",
+      "target": "scripts_analyze_fmt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L227",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_write_csv",
+      "target": "scripts_analyze_fmt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L204",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_print_table",
+      "target": "scripts_analyze_fmt_pct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L227",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_write_csv",
+      "target": "scripts_analyze_fmt_pct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L475",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_main",
+      "target": "scripts_analyze_print_table",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L186",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_rationale_186",
+      "target": "scripts_analyze_print_table",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L479",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_main",
+      "target": "scripts_analyze_write_csv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L218",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_write_csv",
+      "target": "scripts_analyze_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L261",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_fig3_normal_latency",
+      "target": "scripts_analyze_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L305",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_fig4_burst_traffic",
+      "target": "scripts_analyze_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L371",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_fig5_throughput",
+      "target": "scripts_analyze_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L418",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_main",
+      "target": "scripts_analyze_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L281",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_fig3_normal_latency",
+      "target": "scripts_analyze_bar_with_errbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L327",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_fig4_burst_traffic",
+      "target": "scripts_analyze_bar_with_errbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L383",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_fig5_throughput",
+      "target": "scripts_analyze_bar_with_errbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L485",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_main",
+      "target": "scripts_analyze_fig3_normal_latency",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L262",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_rationale_262",
+      "target": "scripts_analyze_fig3_normal_latency",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L489",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_main",
+      "target": "scripts_analyze_fig4_burst_traffic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L306",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_rationale_306",
+      "target": "scripts_analyze_fig4_burst_traffic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L493",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_main",
+      "target": "scripts_analyze_fig5_throughput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/analyze.py",
+      "source_location": "L372",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_analyze_rationale_372",
+      "target": "scripts_analyze_fig5_throughput",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L198",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_collect_specs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L188",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_detect_arch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_detect_cpu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_detect_k6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_detect_machine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L136",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_detect_node",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L142",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_detect_npm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_detect_npm_package",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L122",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_detect_os",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_detect_python",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_detect_ram",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_info",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L390",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_ok",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L300",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_render_csv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L304",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_render_latex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L287",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_render_markdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L266",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_render_terminal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L367",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_render_txt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report",
+      "target": "scripts_env_report_warn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L423",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_main",
+      "target": "scripts_env_report_ok",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L210",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_collect_specs",
+      "target": "scripts_env_report_info",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L189",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_detect_arch",
+      "target": "scripts_env_report_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_detect_cpu",
+      "target": "scripts_env_report_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L154",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_detect_k6",
+      "target": "scripts_env_report_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_detect_machine",
+      "target": "scripts_env_report_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L137",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_detect_node",
+      "target": "scripts_env_report_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L143",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_detect_npm",
+      "target": "scripts_env_report_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L176",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_detect_npm_package",
+      "target": "scripts_env_report_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L125",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_detect_os",
+      "target": "scripts_env_report_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_detect_ram",
+      "target": "scripts_env_report_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_rationale_50",
+      "target": "scripts_env_report_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L211",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_collect_specs",
+      "target": "scripts_env_report_detect_machine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_rationale_62",
+      "target": "scripts_env_report_detect_machine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L212",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_collect_specs",
+      "target": "scripts_env_report_detect_cpu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_rationale_77",
+      "target": "scripts_env_report_detect_cpu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L213",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_collect_specs",
+      "target": "scripts_env_report_detect_ram",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_rationale_99",
+      "target": "scripts_env_report_detect_ram",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L216",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_collect_specs",
+      "target": "scripts_env_report_detect_os",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L123",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_rationale_123",
+      "target": "scripts_env_report_detect_os",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L220",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_collect_specs",
+      "target": "scripts_env_report_detect_node",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L221",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_collect_specs",
+      "target": "scripts_env_report_detect_npm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L222",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_collect_specs",
+      "target": "scripts_env_report_detect_python",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L225",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_collect_specs",
+      "target": "scripts_env_report_detect_k6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L228",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_collect_specs",
+      "target": "scripts_env_report_detect_npm_package",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_detect_npm_package",
+      "target": "scripts_env_report_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L163",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_rationale_163",
+      "target": "scripts_env_report_detect_npm_package",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L198",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_collect_specs",
+      "target": "scripts_env_report_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L401",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_main",
+      "target": "scripts_env_report_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L217",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_collect_specs",
+      "target": "scripts_env_report_detect_arch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L415",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_main",
+      "target": "scripts_env_report_collect_specs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L199",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_rationale_199",
+      "target": "scripts_env_report_collect_specs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L418",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_main",
+      "target": "scripts_env_report_render_terminal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L267",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_rationale_267",
+      "target": "scripts_env_report_render_terminal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L422",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_main",
+      "target": "scripts_env_report_render_markdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L435",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_main",
+      "target": "scripts_env_report_render_csv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L427",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_main",
+      "target": "scripts_env_report_render_latex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L305",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_rationale_305",
+      "target": "scripts_env_report_render_latex",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L440",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_main",
+      "target": "scripts_env_report_render_txt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/env-report.py",
+      "source_location": "L368",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_env_report_rationale_368",
+      "target": "scripts_env_report_render_txt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_run_all",
+      "target": "scripts_run_all_log_error",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_run_all",
+      "target": "scripts_run_all_log_info",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_run_all",
+      "target": "scripts_run_all_log_ok",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_run_all",
+      "target": "scripts_run_all_log_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_run_all",
+      "target": "scripts_run_all_log_warn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_run_all",
+      "target": "scripts_run_all_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L101",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_run_all",
+      "target": "scripts_run_all_start_services",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L130",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_run_all",
+      "target": "scripts_run_all_stop_services",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_run_all",
+      "target": "scripts_run_all_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L53",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_run_all_sh__entry",
+      "target": "scripts_run_all_log_error",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L206",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_run_all_sh__entry",
+      "target": "scripts_run_all_log_info",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L194",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_run_all_sh__entry",
+      "target": "scripts_run_all_log_ok",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L150",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_run_all_sh__entry",
+      "target": "scripts_run_all_log_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L196",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_run_all_sh__entry",
+      "target": "scripts_run_all_log_warn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L178",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_run_all_sh__entry",
+      "target": "scripts_run_all_start_services",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L202",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_run_all_sh__entry",
+      "target": "scripts_run_all_stop_services",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L52",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_run_all_sh__entry",
+      "target": "scripts_run_all_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L103",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_run_all_start_services",
+      "target": "scripts_run_all_log_info",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L132",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_run_all_stop_services",
+      "target": "scripts_run_all_log_info",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L126",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_run_all_start_services",
+      "target": "scripts_run_all_log_ok",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L141",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_run_all_stop_services",
+      "target": "scripts_run_all_log_ok",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/run-all.sh",
+      "source_location": "L124",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_run_all_start_services",
+      "target": "scripts_run_all_log_warn",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2829,12 +5580,36 @@
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "user-service/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast",
+      "source": "user_service_package_dependencies_dotenv",
+      "target": "user_service_package_json_dotenv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "user-service/package.json",
       "source_location": "L16",
       "weight": 1.0,
       "context": "import",
       "_origin": "ast",
       "source": "user_service_package_dependencies_express",
       "target": "user_service_package_json_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "user-service/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast",
+      "source": "user_service_package_dependencies_jsonwebtoken",
+      "target": "user_service_package_json_jsonwebtoken",
       "confidence_score": 1.0
     },
     {
@@ -2903,8 +5678,272 @@
       "source": "user_service_src_middleware_auth",
       "target": "user_service_src_middleware_auth_verifytoken",
       "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/rules/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "agents_rules_graphify",
+      "target": "agents_rules_graphify_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".agents/workflows/graphify.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "agents_workflows_graphify",
+      "target": "agents_workflows_graphify_workflow_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme",
+      "target": "readme_microservices_jwt_research",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L132",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_microservices_jwt_research",
+      "target": "readme_environment_specification_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L122",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_microservices_jwt_research",
+      "target": "readme_individual_load_testing_manual",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_microservices_jwt_research",
+      "target": "readme_project_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_microservices_jwt_research",
+      "target": "readme_quick_start_one_time_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_microservices_jwt_research",
+      "target": "readme_repeated_experiments_for_statistical_validity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_microservices_jwt_research",
+      "target": "readme_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_microservices_jwt_research",
+      "target": "readme_running_the_project_manual",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_repeated_experiments_for_statistical_validity",
+      "target": "readme_step_1_run_all_scenarios_n_times_automated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "readme_repeated_experiments_for_statistical_validity",
+      "target": "readme_step_2_analyze_generate_statistical_figures",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/environment-spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "docs_environment_spec",
+      "target": "docs_environment_spec_test_environment_specification",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/error.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "notes_error",
+      "target": "notes_error_error_muncul_ketika_pengetesan_burst_traffic_no_security",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/start.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "notes_start",
+      "target": "notes_start_judul_terpilih",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/start.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "notes_start",
+      "target": "notes_start_next_steps_yang_akan_kita_kerjakan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/start.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "notes_start_judul_terpilih",
+      "target": "notes_start_gambaran_sistem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/start.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "notes_start_judul_terpilih",
+      "target": "notes_start_inti_ide_penelitian",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/start.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "notes_start_judul_terpilih",
+      "target": "notes_start_kontribusi_utama",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/start.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "notes_start_judul_terpilih",
+      "target": "notes_start_metodologi_singkat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/start.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "notes_start_judul_terpilih",
+      "target": "notes_start_output_yang_diharapkan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/start.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "notes_start_next_steps_yang_akan_kita_kerjakan",
+      "target": "notes_start_1_step_by_step_implementasi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/start.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "notes_start_next_steps_yang_akan_kita_kerjakan",
+      "target": "notes_start_2_template_eksperimen_load_testing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/start.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "notes_start_next_steps_yang_akan_kita_kerjakan",
+      "target": "notes_start_3_outline_paper_ieee",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "aec2c58164cbfefbe68a676977035c01cebf5fbc"
+  "built_at_commit": "9c2724b095e0b52026746f55423d570f2d949e0e"
 }

@@ -1,0 +1,26 @@
+TEST ENVIRONMENT SPECIFICATION
+============================================================
+Generated : 2026-08-18 09:08:28 WIB
+============================================================
+
+[Hardware]
+  Machine                     MacBook Pro (Apple M4)
+  CPU                         Apple M4 (10-core: 4P+6E)
+  RAM                         16 GB unified memory
+  Architecture                ARM64 (Apple Silicon)
+[Environment]
+  Operating System            macOS 26.5.2 (Build 25F84)
+  Node.js                     26.7.0
+  npm                         11.19.0
+  Python                      CPython 3.13.12
+[Software]
+  Express                     5.2.1
+  jsonwebtoken                9.0.3
+  express-rate-limit          8.3.1
+  http-proxy-middleware       2.0.6
+[Load Testing]
+  Tool                        k6
+  Version                     2.2.0
+[Network]
+  Interface                   localhost (loopback)
+  Protocol                    HTTP/1.1

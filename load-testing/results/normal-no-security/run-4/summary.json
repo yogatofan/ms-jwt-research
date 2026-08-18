@@ -1,0 +1,207 @@
+{
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+                "login status 200": {
+                    "passes": 308,
+                    "fails": 0,
+                    "name": "login status 200",
+                    "path": "::login status 200",
+                    "id": "a9f04e9f501317c68a9f824e04811bea"
+                },
+                "token exists": {
+                    "path": "::token exists",
+                    "id": "501d3ab8642eebcf0d59abc7d9aca2c1",
+                    "passes": 308,
+                    "fails": 0,
+                    "name": "token exists"
+                },
+                "products status 200": {
+                    "passes": 308,
+                    "fails": 0,
+                    "name": "products status 200",
+                    "path": "::products status 200",
+                    "id": "7a463d11f81f84d56ee861b8840edb44"
+                },
+                "products not empty": {
+                    "name": "products not empty",
+                    "path": "::products not empty",
+                    "id": "bd191c4259987c2ee72f276edb84b3d4",
+                    "passes": 308,
+                    "fails": 0
+                },
+                "order status 201": {
+                    "name": "order status 201",
+                    "path": "::order status 201",
+                    "id": "66683036487a8d64856d6ffc000beb7b",
+                    "passes": 308,
+                    "fails": 0
+                },
+                "order has id": {
+                    "name": "order has id",
+                    "path": "::order has id",
+                    "id": "9e2875da6eba0d12e656a9932db0abc4",
+                    "passes": 308,
+                    "fails": 0
+                }
+            }
+    },
+    "metrics": {
+        "vus": {
+            "value": 1,
+            "min": 1,
+            "max": 10
+        },
+        "http_req_duration": {
+            "avg": 3.3211839826839813,
+            "min": 0.943,
+            "med": 3.232,
+            "max": 18.471,
+            "p(90)": 4.134,
+            "p(95)": 4.562049999999999
+        },
+        "http_req_receiving": {
+            "avg": 0.0893095238095238,
+            "min": 0.023,
+            "med": 0.088,
+            "max": 0.805,
+            "p(90)": 0.114,
+            "p(95)": 0.12384999999999996
+        },
+        "http_req_blocked": {
+            "med": 0.473,
+            "max": 1.467,
+            "p(90)": 0.5497000000000001,
+            "p(95)": 0.57,
+            "avg": 0.45611904761904803,
+            "min": 0.17
+        },
+        "http_req_sending": {
+            "min": 0.012,
+            "med": 0.062,
+            "max": 0.658,
+            "p(90)": 0.082,
+            "p(95)": 0.089,
+            "avg": 0.06415259740259732
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 924,
+            "value": 0
+        },
+        "data_received": {
+            "count": 319288,
+            "rate": 2644.1607254663822
+        },
+        "http_req_tls_handshaking": {
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "product_latency": {
+            "max": 10.072,
+            "p(90)": 3.7918000000000003,
+            "p(95)": 4.20255,
+            "avg": 3.0989448051948063,
+            "min": 0.943,
+            "med": 3.032,
+            "thresholds": {
+                "p(95)<300": false
+            }
+        },
+        "data_sent": {
+            "count": 251020,
+            "rate": 2078.8041683576307
+        },
+        "vus_max": {
+            "value": 10,
+            "min": 10,
+            "max": 10
+        },
+        "checks": {
+            "fails": 0,
+            "passes": 1848,
+            "value": 1
+        },
+        "login_latency": {
+            "p(90)": 4.3769,
+            "p(95)": 4.688599999999999,
+            "avg": 3.573077922077922,
+            "min": 1.226,
+            "med": 3.4805,
+            "max": 18.471,
+            "thresholds": {
+                "p(95)<500": false
+            }
+        },
+        "http_req_connecting": {
+            "min": 0.133,
+            "med": 0.3535,
+            "max": 0.733,
+            "p(90)": 0.419,
+            "p(95)": 0.436,
+            "avg": 0.341686147186147
+        },
+        "total_requests": {
+            "count": 924,
+            "rate": 7.652039883525021
+        },
+        "iterations": {
+            "count": 308,
+            "rate": 2.5506799611750073
+        },
+        "http_req_duration{expected_response:true}": {
+            "p(90)": 4.134,
+            "p(95)": 4.562049999999999,
+            "avg": 3.3211839826839813,
+            "min": 0.943,
+            "med": 3.232,
+            "max": 18.471
+        },
+        "error_rate": {
+            "fails": 924,
+            "passes": 0,
+            "thresholds": {
+                "rate<0.05": false
+            },
+            "value": 0
+        },
+        "http_req_waiting": {
+            "avg": 3.16772186147186,
+            "min": 0.899,
+            "med": 3.066,
+            "max": 18.361,
+            "p(90)": 3.9473000000000003,
+            "p(95)": 4.363899999999999
+        },
+        "iteration_duration": {
+            "avg": 3017.3713505259752,
+            "min": 3011.339459,
+            "med": 3017.2612915,
+            "max": 3052.022916,
+            "p(90)": 3020.1210581,
+            "p(95)": 3021.2952914499997
+        },
+        "order_latency": {
+            "p(90)": 4.106000000000001,
+            "p(95)": 4.41175,
+            "avg": 3.2915292207792204,
+            "min": 1.066,
+            "med": 3.176,
+            "max": 18.278,
+            "thresholds": {
+                "p(95)<400": false
+            }
+        },
+        "http_reqs": {
+            "count": 924,
+            "rate": 7.652039883525021
+        }
+    }
+}

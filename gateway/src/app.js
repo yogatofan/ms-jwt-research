@@ -6,19 +6,21 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
 // ── Rate Limiters ────────────────────────────────────────────
-// Limiter global: semua route
+// Limiter global: semua route (default: 2000 req/menit)
 const globalLimiter = rateLimit({
   windowMs: 60 * 1000,
-  max: 100,  // ← naikkan dari 100 ke 10000 untuk testing
+  max: parseInt(process.env.RATE_LIMIT_GLOBAL_MAX || '2000', 10),
   standardHeaders: true,
   legacyHeaders: false,
   message: { error: 'Too many requests, please slow down.' }
 });
 
-// Limiter ketat khusus login (anti brute-force)
+// Limiter khusus login (anti brute-force, default: 1000 req/menit)
 const authLimiter = rateLimit({
-  windowMs: 15 * 60 * 1000,
-  max: 10,  // ← naikkan dari 10 ke 10000 untuk testing
+  windowMs: 60 * 1000,
+  max: parseInt(process.env.RATE_LIMIT_AUTH_MAX || '1000', 10),
+  standardHeaders: true,
+  legacyHeaders: false,
   message: { error: 'Too many login attempts, try again later.' }
 });
 
